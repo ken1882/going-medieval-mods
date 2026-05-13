@@ -1,0 +1,11 @@
+{
+    "id": "compeador.refactor_crafting_quality",
+    "name": "Refactored Crafting Quality",
+    "description": "Refactors the crafting quality system with gaussian distribution.",
+    "author": "Compeador",
+    "modVersion": "0.1",
+    "gameVersion": "1.0.87",
+    "tags": [
+        "General"
+    ]
+}

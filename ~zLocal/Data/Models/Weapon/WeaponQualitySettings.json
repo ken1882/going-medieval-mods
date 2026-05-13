@@ -1,0 +1,394 @@
+{
+  "fine_bone_short_bow": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "bone",
+    "parentKey": "short_bow",
+    "sourceQualitySettingsId": "TwoHandBow",
+    "weaponType": 1
+  },
+  "fine_iron_throwing_axes": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "iron",
+    "parentKey": "throwing_axes",
+    "sourceQualitySettingsId": "OneHandThrow",
+    "weaponType": 15
+  },
+  "fine_leather_bear_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_bear",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_boar_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_boar",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_cat_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_cat",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_cow_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_cow",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_dog_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_dog",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_donkey_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_donkey",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_fox_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_fox",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_goat_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_goat",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_hare_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_hare",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_human_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_human",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_polecat_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_polecat",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_rat_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_rat",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_sheep_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_sheep",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_water_vole_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_water_vole",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_leather_wolf_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "leather_wolf",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_linen_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "linen",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "fine_wood_curved_bow": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "wood",
+    "parentKey": "curved_bow",
+    "sourceQualitySettingsId": "TwoHandBow",
+    "weaponType": 1
+  },
+  "fine_wood_light_javelins": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "wood",
+    "parentKey": "light_javelins",
+    "sourceQualitySettingsId": "OneHandThrow",
+    "weaponType": 15
+  },
+  "fine_wood_long_bow": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "wood",
+    "parentKey": "long_bow",
+    "sourceQualitySettingsId": "TwoHandBow",
+    "weaponType": 1
+  },
+  "fine_wood_short_bow": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "wood",
+    "parentKey": "short_bow",
+    "sourceQualitySettingsId": "TwoHandBow",
+    "weaponType": 1
+  },
+  "fine_wood_sling_staff": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "wood",
+    "parentKey": "sling_staff",
+    "sourceQualitySettingsId": "TwoHandSling",
+    "weaponType": 17
+  },
+  "fine_wood_war_bow": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "wood",
+    "parentKey": "war_bow",
+    "sourceQualitySettingsId": "TwoHandBow",
+    "weaponType": 1
+  },
+  "fine_wool_sling": {
+    "quality": "fine",
+    "productQuality": 4,
+    "material": "wool",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_iron_throwing_axes": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "iron",
+    "parentKey": "throwing_axes",
+    "sourceQualitySettingsId": "OneHandThrow",
+    "weaponType": 15
+  },
+  "flimsy_leather_bear_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_bear",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_boar_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_boar",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_cat_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_cat",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_cow_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_cow",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_dog_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_dog",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_donkey_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_donkey",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_fox_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_fox",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_goat_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_goat",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_hare_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_hare",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_human_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_human",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_polecat_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_polecat",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_rat_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_rat",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_sheep_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_sheep",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_water_vole_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_water_vole",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_leather_wolf_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "leather_wolf",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_linen_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "linen",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  },
+  "flimsy_wood_curved_bow": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "wood",
+    "parentKey": "curved_bow",
+    "sourceQualitySettingsId": "TwoHandBow",
+    "weaponType": 1
+  },
+  "flimsy_wood_short_bow": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "wood",
+    "parentKey": "short_bow",
+    "sourceQualitySettingsId": "TwoHandBow",
+    "weaponType": 1
+  },
+  "flimsy_wood_sling_staff": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "wood",
+    "parentKey": "sling_staff",
+    "sourceQualitySettingsId": "TwoHandSling",
+    "weaponType": 17
+  },
+  "flimsy_wood_war_bow": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "wood",
+    "parentKey": "war_bow",
+    "sourceQualitySettingsId": "TwoHandBow",
+    "weaponType": 1
+  },
+  "flimsy_wool_sling": {
+    "quality": "flimsy",
+    "productQuality": 1,
+    "material": "wool",
+    "parentKey": "sling",
+    "sourceQualitySettingsId": "OneHandSling",
+    "weaponType": 16
+  }
+}

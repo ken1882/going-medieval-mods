@@ -1,0 +1,11 @@
+{
+    "id": "~compeador.local_patches",
+    "name": "~Local Patches",
+    "description": "Local only patches for testing purposes.",
+    "author": "Compeador",
+    "modVersion": "0.1",
+    "gameVersion": "1.0.87",
+    "tags": [
+        "General"
+    ]
+}

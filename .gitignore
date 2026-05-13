@@ -1,0 +1,97 @@
+# OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Archives / packaged releases
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Keep release zips in a dedicated ignored folder
+dist/
+release/
+releases/
+build/
+builds/
+
+# Python helper scripts / tooling
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+
+# Node tooling, if used for scripts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Unity project generated files
+# Useful if your monorepo includes the FoxyVoxel Unity modding project.
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+.vs/
+
+# Unity generated metadata backups
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity Addressables generated/cache folders
+aa/
+AddressablesBuildTEP.json
+Assets/AddressableAssetsData/*/*.bin
+
+# FoxyVoxel / Going Medieval modding export output
+# Keep generated exports out of Git; copy final bundles into each mod's
+# Data/AddressableAssets/ when you want to version/release them.
+Exported/
+**/Exported/
+
+# Local scratch/testing folders
+scratch/
+tmp/
+test-output/

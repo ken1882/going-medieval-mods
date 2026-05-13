@@ -1,0 +1,80 @@
+{
+  "repository": [
+    {
+      "id": "swords_lvl2",
+      "unlocks#APPEND": [{
+          "unlockId": "knightly_sword"
+        },
+        {
+          "unlockId": "greatsword"
+        }
+      ]
+    },
+    {
+      "id": "axes_lvl2",
+      "unlocks#APPEND": [{
+        "unlockId": "berdiche"
+      }]
+    },
+    {
+      "id": "maces_lvl2",
+      "unlocks#REMOVE": [{
+        "unlockId": "mace"
+      }],
+      "unlocks#APPEND": [{
+          "unlockId": "military_pick"
+        },
+        {
+          "unlockId": "two_handed_flanged_mace"
+        },
+        {
+          "unlockId": "warhammer"
+        },
+        {
+          "unlockId": "two_handed_warhammer"
+        }
+      ]
+    },
+    {
+      "id": "crossbows_lvl2",
+      "unlocks#APPEND": [{
+        "unlockId": "light_crossbow"
+      }]
+    },
+    {
+      "id": "fletchering_lvl2",
+      "unlocks#APPEND": [{
+        "unlockId": "curved_bow"
+      }]
+    },
+    {
+      "id": "woodwork_lvl2",
+      "unlocks#APPEND": [{
+          "unlockId": "reinforced_flail"
+        },
+        {
+          "unlockId": "reinforced_spear"
+        }
+      ]
+    },
+    {
+      "id": "shield_production_lvl2",
+      "unlocks#APPEND": [{
+        "unlockId": "metal_heater_shield"
+      }]
+    },
+    {
+      "id": "shield_production_lvl3",
+      "unlocks#APPEND": [{
+          "unlockId": "kite_shield"
+        },
+        {
+          "unlockId": "metal_kite_shield"
+        },
+        {
+          "unlockId": "metal_tower_shield"
+        }
+      ]
+    }
+  ]
+}

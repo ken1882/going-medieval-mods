@@ -1,0 +1,2550 @@
+{
+  "repository": [
+    {
+      "id": "fine_bone_short_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "beautyInputEquipped": -18,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 10.8,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 18,
+        "attackSpeed": 4.455,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 7.2,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 5.67,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ],
+      "agentFlammability": 1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_iron_throwing_axes",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 5
+        }
+      ],
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandThrow",
+        "damage": 17,
+        "ignoresArmor": 0.4,
+        "armorDamage": 1.4,
+        "buildingDamage": 0.9,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 10,
+        "attackSpeed": 6.75,
+        "projectilePrefabAddress": "ThrowingAxesProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0.4,
+          "z": 0.2
+        },
+        "projectileArcHeight": 1.4,
+        "projectileSpeed": 0.35,
+        "hitEffectorGroupIDs": [
+          "WoundsCutting"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsCuttingHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootAxe"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "OneHandAxe",
+        "damage": 15,
+        "ignoresArmor": 0.4,
+        "armorDamage": 1,
+        "buildingDamage": 0.6,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 4.05,
+        "hitEffectorGroupIDs": [
+          "WoundsCutting"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsCuttingHead"
+        ],
+        "hpLossPerUse": 2,
+        "loseHpOnMiss": false,
+        "weaponSound": "AxeSlash"
+      },
+      "meleeCover": 0.05,
+      "rangedCover": 0,
+      "coverAngle": 45,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Throwing_axe_additional"
+        }
+      ],
+      "beautyInputEquipped": -5,
+      "agentFlammability": 1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_bear_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5,
+      "agentFlammability": 0.75,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_boar_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5,
+      "agentFlammability": 0.8,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_cat_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_cow_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.8,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_dog_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_donkey_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.8,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_fox_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 7,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_goat_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_hare_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5,
+      "agentFlammability": 0.9,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_human_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": -35,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1,
+      "onEquipEffectors": [
+        "WearingHumanSkinItem"
+      ]
+    },
+    {
+      "id": "fine_leather_polecat_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_rat_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": -5,
+      "agentFlammability": 0.9,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_sheep_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.9,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_water_vole_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 6,
+      "agentFlammability": 0.75,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_leather_wolf_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5.2,
+      "agentFlammability": 0.9,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_linen_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 1.25,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_wood_curved_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 10
+        }
+      ],
+      "beautyInputEquipped": 5,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 24,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 18,
+        "attackSpeed": 4.95,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 45,
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_wood_light_javelins",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "beautyInputEquipped": 3,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandThrow",
+        "damage": 16,
+        "ignoresArmor": 0.35,
+        "armorDamage": 1.2,
+        "buildingDamage": 0.15,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 10,
+        "attackSpeed": 6.3,
+        "projectilePrefabAddress": "JavelinProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0.3,
+          "z": 0.1
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.4,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootJavelin"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "OneHandSpear",
+        "damage": 10,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.35,
+        "buildingDamage": 0.2,
+        "precision": 0.95,
+        "precisionFalloff": 0.03,
+        "range": 0.7,
+        "attackSpeed": 4.5,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "loseHpOnMiss": false,
+        "weaponSound": "SpearSlash"
+      },
+      "meleeCover": 0.05,
+      "rangedCover": 0,
+      "coverAngle": 45,
+      "additionalPrefabs": [
+        {
+          "key": 2,
+          "value": "Light_javelins_additional"
+        }
+      ],
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_wood_long_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 10
+        }
+      ],
+      "beautyInputEquipped": 10,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 22,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.01,
+        "range": 18,
+        "attackSpeed": 5.4,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 2.5,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.25,
+      "rangedCover": 0,
+      "coverAngle": 60,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ],
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_wood_short_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "beautyInputEquipped": 2,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 12,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 18,
+        "attackSpeed": 4.95,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ],
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_wood_sling_staff",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandSling",
+        "damage": 20,
+        "ignoresArmor": 0.35,
+        "armorDamage": 0.8,
+        "buildingDamage": 1,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 15,
+        "attackSpeed": 7.2,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 1.2,
+          "z": -0.2
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.6,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandStaff",
+        "damage": 20,
+        "ignoresArmor": 0.45,
+        "armorDamage": 0.8,
+        "buildingDamage": 1,
+        "precision": 0.95,
+        "precisionFalloff": 0,
+        "range": 0.2,
+        "attackSpeed": 5.4,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30,
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_wood_war_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 10
+        }
+      ],
+      "beautyInputEquipped": 5,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 20,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 18,
+        "attackSpeed": 4.95,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ],
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "fine_wool_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4.5,
+      "agentFlammability": 0.3,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_bone_short_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "beautyInputEquipped": -18,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 10.8,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 18,
+        "attackSpeed": 4.455,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 7.2,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 5.67,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ],
+      "agentFlammability": 1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_iron_throwing_axes",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 5
+        }
+      ],
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandThrow",
+        "damage": 17,
+        "ignoresArmor": 0.4,
+        "armorDamage": 1.4,
+        "buildingDamage": 0.9,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 10,
+        "attackSpeed": 6.75,
+        "projectilePrefabAddress": "ThrowingAxesProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0.4,
+          "z": 0.2
+        },
+        "projectileArcHeight": 1.4,
+        "projectileSpeed": 0.35,
+        "hitEffectorGroupIDs": [
+          "WoundsCutting"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsCuttingHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootAxe"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "OneHandAxe",
+        "damage": 15,
+        "ignoresArmor": 0.4,
+        "armorDamage": 1,
+        "buildingDamage": 0.6,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 4.05,
+        "hitEffectorGroupIDs": [
+          "WoundsCutting"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsCuttingHead"
+        ],
+        "hpLossPerUse": 2,
+        "loseHpOnMiss": false,
+        "weaponSound": "AxeSlash"
+      },
+      "meleeCover": 0.05,
+      "rangedCover": 0,
+      "coverAngle": 45,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Throwing_axe_additional"
+        }
+      ],
+      "beautyInputEquipped": -5,
+      "agentFlammability": 1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_bear_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5,
+      "agentFlammability": 0.75,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_boar_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5,
+      "agentFlammability": 0.8,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_cat_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_cow_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.8,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_dog_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_donkey_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.8,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_fox_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 7,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_goat_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_hare_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5,
+      "agentFlammability": 0.9,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_human_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": -35,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1,
+      "onEquipEffectors": [
+        "WearingHumanSkinItem"
+      ]
+    },
+    {
+      "id": "flimsy_leather_polecat_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_rat_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": -5,
+      "agentFlammability": 0.9,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_sheep_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 0.9,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5,
+      "agentFlammability": 0.85,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_water_vole_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 6,
+      "agentFlammability": 0.75,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_leather_wolf_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 5.2,
+      "agentFlammability": 0.9,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_linen_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4,
+      "agentFlammability": 1.25,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_wood_curved_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 10
+        }
+      ],
+      "beautyInputEquipped": 5,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 24,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 18,
+        "attackSpeed": 4.95,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 45,
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_wood_light_javelins",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "beautyInputEquipped": 3,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandThrow",
+        "damage": 16,
+        "ignoresArmor": 0.35,
+        "armorDamage": 1.2,
+        "buildingDamage": 0.15,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 10,
+        "attackSpeed": 6.3,
+        "projectilePrefabAddress": "JavelinProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0.3,
+          "z": 0.1
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.4,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootJavelin"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "OneHandSpear",
+        "damage": 10,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.35,
+        "buildingDamage": 0.2,
+        "precision": 0.95,
+        "precisionFalloff": 0.03,
+        "range": 0.7,
+        "attackSpeed": 4.5,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "loseHpOnMiss": false,
+        "weaponSound": "SpearSlash"
+      },
+      "meleeCover": 0.05,
+      "rangedCover": 0,
+      "coverAngle": 45,
+      "additionalPrefabs": [
+        {
+          "key": 2,
+          "value": "Light_javelins_additional"
+        }
+      ],
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_wood_long_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 10
+        }
+      ],
+      "beautyInputEquipped": 10,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 22,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.01,
+        "range": 18,
+        "attackSpeed": 5.4,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 2.5,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.25,
+      "rangedCover": 0,
+      "coverAngle": 60,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ],
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_wood_short_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "beautyInputEquipped": 2,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 12,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 18,
+        "attackSpeed": 4.95,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ],
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_wood_sling_staff",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandSling",
+        "damage": 20,
+        "ignoresArmor": 0.35,
+        "armorDamage": 0.8,
+        "buildingDamage": 1,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 15,
+        "attackSpeed": 7.2,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 1.2,
+          "z": -0.2
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.6,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandStaff",
+        "damage": 20,
+        "ignoresArmor": 0.45,
+        "armorDamage": 0.8,
+        "buildingDamage": 1,
+        "precision": 0.95,
+        "precisionFalloff": 0,
+        "range": 0.2,
+        "attackSpeed": 5.4,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30,
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_wood_war_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 10
+        }
+      ],
+      "beautyInputEquipped": 5,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 20,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 18,
+        "attackSpeed": 4.95,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ],
+      "agentFlammability": 1.1,
+      "agentFireDamageMultiplier": 1
+    },
+    {
+      "id": "flimsy_wool_sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 15,
+        "ignoresArmor": 0.3,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 12,
+        "attackSpeed": 5.85,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0,
+      "beautyInputEquipped": 4.5,
+      "agentFlammability": 0.3,
+      "agentFireDamageMultiplier": 1
+    }
+  ]
+}

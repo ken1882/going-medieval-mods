@@ -1,0 +1,450 @@
+{
+  "repository": [
+    {
+      "id": "dagger",
+      "hitpoints": 50,
+      "beautyInput": 1,
+      "wealthPoints": 15,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "short_sword",
+      "beautyInput": 1
+    },
+    {
+      "id": "falchion",
+      "beautyInput": 1,
+      "beautyInputOnShelf": 15,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "knightly_sword",
+      "beautyInput": 2,
+      "beautyInputOnShelf": 25,
+      "wealthPoints": 60,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "longsword",
+      "weight": 2,
+      "hitpoints": 250,
+      "beautyInput":3,
+      "wealthPoints": 60,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "id": "greatsword",
+      "beautyInput": 4,
+      "wealthPoints": 75,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "id": "mace",
+      "weight": 1.5,
+      "hitpoints": 100,
+      "beautyInput": 1
+    },
+    {
+      "id": "two_handed_mace",
+      "weight": 3,
+      "hitpoints": 200,
+      "beautyInput": 1,
+      "beautyInputOnShelf": 15,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "two_handed_flanged_mace",
+      "weight": 3,
+      "hitpoints": 250,
+      "beautyInput": 1,
+      "beautyInputOnShelf": 15,
+      "wealthPoints": 55,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "military_pick",
+      "weight": 1.5,
+      "beautyInput": 1,
+      "beautyInputOnShelf": 10,
+      "wealthPoints": 50
+    },
+    {
+      "id": "hatchet",
+      "weight": 1.5,
+      "hitpoints": 75,
+      "beautyInput": 1,
+      "beautyInputOnShelf": 5
+    },
+    {
+      "id": "greataxe",
+      "weight": 3,
+      "beautyInput": 2,
+      "beautyInputOnShelf": 20,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": "warhammer",
+      "weight": 1.5,
+      "beautyInput": 1,
+      "beautyInputOnShelf": 15,
+      "wealthPoints": 50,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "two_handed_warhammer",
+      "weight": 3,
+      "hitpoints": 250,
+      "beautyInput": 2,
+      "beautyInputOnShelf": 20,
+      "wealthPoints": 55,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "berdiche",
+      "weight": 4,
+      "hitpoints": 200,
+      "beautyInput": 2,
+      "beautyInputOnShelf": 20,
+      "wealthPoints": 50,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": "billhook",
+      "hitpoints": 100,
+      "beautyInput": 1,
+      "beautyInputOnShelf": 10,
+      "wealthPoints": 40,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "staff",
+      "weight": 3,
+      "hitpoints": 300,
+      "beautyInput": 1,
+      "beautyInputOnShelf": 5,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "cudgel",
+      "weight": 2,
+      "hitpoints": 100,
+      "beautyInput": 1,
+      "beautyInputOnShelf": 1,
+      "wealthPoints": 15,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "bludgeon",
+      "weight": 2.5,
+      "hitpoints": 175,
+      "beautyInput": 1,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "spear",
+      "weight": 2.5,
+      "hitpoints": 150,
+      "beautyInput": 1,
+      "wealthPoints": 40,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "reinforced_spear",
+      "weight": 3,
+      "beautyInput": 1,
+      "wealthPoints": 50,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        },
+        {
+          "key": "iron_ingot",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "warfork",
+      "weight": 3,
+      "hitpoints": 200,
+      "beautyInput": 1,
+      "wealthPoints": 45,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        },
+        {
+          "key": "iron_ingot",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "flail",
+      "weight": 1,
+      "hitpoints": 150,
+      "beautyInput": 1,
+      "wealthPoints": 25,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "id": "reinforced_flail",
+      "weight": 2,
+      "hitpoints": 225,
+      "beautyInput": 1,
+      "beautyInputOnShelf": 4,
+      "wealthPoints": 40,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        },
+        {
+          "key": "iron_ingot",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "two_handed_flail",
+      "weight": 3,
+      "beautyInput": 1,
+      "beautyInputOnShelf": 5,
+      "wealthPoints": 50,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 7
+        },
+        {
+          "key": "iron_ingot",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "short_bow",
+      "beautyInput": 1,
+      "wealthPoints": 30,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "war_bow",
+      "hitpoints": 300,
+      "beautyInput": 1,
+      "wealthPoints": 40,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "curved_bow",
+      "hitpoints": 350,
+      "beautyInput": 2,
+      "beautyInputOnShelf": 25,
+      "wealthPoints": 50,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "id": "long_bow",
+      "beautyInput": 2,
+      "wealthPoints": 90,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": "light_crossbow",
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 7
+        },
+        {
+          "key": "mechanical_parts",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "crossbow",
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 9
+        },
+        {
+          "key": "mechanical_parts",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "heavy_crossbow",
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 9
+        },
+        {
+          "key": "mechanical_parts",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "buckler_shield",
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "kite_shield",
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "id": "pavise_shield",
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "id": "heater_shield",
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "id": "tower_shield",
+      "materials#APPEND": [
+        "iron",
+        "steel",
+        "gold",
+        "silver"
+      ],
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 10
+        }
+      ]
+    }
+  ]
+}

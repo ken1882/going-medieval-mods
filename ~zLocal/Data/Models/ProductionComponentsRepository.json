@@ -1,0 +1,107 @@
+{
+  "repository": [
+    {
+      "id": "fletchers_table",
+      "productions#REMOVE": [
+		"long_bow",
+        "crossbow",
+        "heavy_crossbow",
+        "dismantle_wood"
+      ],
+      "productions#APPEND": [
+		"war_bow",
+		"long_bow",
+		"curved_bow",
+		"light_crossbow",
+        "crossbow",
+        "heavy_crossbow",
+        "dismantle_wood"
+      ]
+    },
+	{
+      "id": "blacksmith_station",
+      "productions#REMOVE": [
+        "short_sword",
+        "longsword",
+        "mace",
+        "two_handed_mace",
+        "hatchet",
+        "greataxe",
+        "berdiche",
+        "mirror_wall",
+        "shackles",
+        "dismantle_metal"
+      ],
+      "productions#APPEND": [
+		"dagger",
+        "short_sword",
+		"falchion",
+		"knightly_sword",
+        "longsword",
+		"greatsword",
+        "hatchet",
+        "greataxe",
+        "mace",
+        "two_handed_mace",
+		"two_handed_flanged_mace",
+		"military_pick",
+		"warhammer",
+		"two_handed_warhammer",
+        "berdiche",
+		"billhook",
+        "mirror_wall",
+        "shackles",
+        "dismantle_metal"
+      ]
+    },
+    {
+      "id": "woodwork_bench",
+      "productions#REMOVE": [
+        "spear",
+        "flail",
+        "two_handed_flail",
+        "wood_statue_large",
+        "wood_statue_wall",
+        "dismantle_wood"
+      ],
+      "productions#APPEND": [
+		"bludgeon",
+	    "spear",
+		"staff",
+		"warfork",
+		"reinforced_spear",
+        "flail",
+		"reinforced_flail",
+        "two_handed_flail",
+        "wood_statue_large",
+        "wood_statue_wall",
+        "dismantle_wood"
+      ]
+    },
+	{
+      "id": "armourer_table",
+      "productions#REMOVE": [
+        "buckler_shield",
+        "heater_shield",
+        "tower_shield",
+        "dismantle_metal",
+        "dismantle_cloth"
+      ],
+      "productions#APPEND": [
+		"kettle_helmet",
+		"pigface_helmet",
+        "buckler_shield",
+        "heater_shield",
+        "tower_shield",
+		"pavise_shield",
+		"kite_shield",
+        "metal_buckler_shield",
+        "metal_heater_shield",
+		"metal_kite_shield",
+        "metal_tower_shield",
+        "dismantle_metal",
+        "dismantle_cloth"
+      ]
+    }
+  ]
+}
