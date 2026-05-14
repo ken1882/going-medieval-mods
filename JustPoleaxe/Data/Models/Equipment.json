@@ -11,7 +11,7 @@
           "value": 30
         }
       ],
-      "beautyInputEquipped": 16,
+      "beautyInputEquipped": 18,
       "carryHand": 1,
       "primaryWeaponMode": {
         "weaponType": "TwoHandSpear",
@@ -22,7 +22,7 @@
         "precision": 0.9,
         "precisionFalloff": 0,
         "range": 0.7,
-        "attackSpeed": 6.8,
+        "attackSpeed": 6.0,
         "hitEffectorGroupIDs": [
           "WoundsCutting",
           "WoundsPiercing",
@@ -33,7 +33,7 @@
           "WoundsPiercingHead",
           "WoundsBluntHead"
         ],
-        "hpLossPerUse": 3,
+        "hpLossPerUse": 2,
         "loseHpOnMiss": false,
         "weaponSound": "SpearSlash"
       },

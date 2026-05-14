@@ -3,7 +3,6 @@
     {
       "id": "poleaxe",
       "materials": [
-        "iron",
         "steel",
         "gold",
         "silver"
@@ -54,7 +53,7 @@
                   "id": "1",
                   "slot": "baseMesh",
                   "slotType": "Mesh",
-                  "value": "greataxe"
+                  "value": "poleaxe"
                 }
               ]
             }
@@ -70,13 +69,13 @@
                   "id": "1",
                   "slot": "albedo",
                   "slotType": "Texture",
-                  "value": "base_melee_weapon_2"
+                  "value": "poleaxe_albedo"
                 },
                 {
                   "id": "2",
                   "slot": "material_map",
                   "slotType": "Texture",
-                  "value": "base_melee_weapon_metal_material"
+                  "value": "poleaxe_metallic_roughness"
                 }
               ]
             }
@@ -85,43 +84,43 @@
       ],
       "equippedPrefabID": "base_equiped_weapon",
       "transformSettingsArray": [
-        {
-          "id": "PileTransformSettings",
-          "positionOffset": {
-            "x": 0.09,
-            "y": 0.02,
-            "z": -0.15
-          },
-          "rotationOffset": {
-            "x": 90,
-            "y": -35,
-            "z": 0
-          },
-          "scaleOffset": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          }
-        },
-        {
-          "id": "EquippedTransformSettings",
-          "positionOffset": {
-            "x": -0.1,
-            "y": 0,
-            "z": 0
-          },
-          "rotationOffset": {
-            "x": 90,
-            "y": 0,
-            "z": 0
-          },
-          "scaleOffset": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          }
-        }
-      ],
+  {
+    "id": "PileTransformSettings",
+    "positionOffset": {
+      "x": 0.24,
+      "y": 0.04,
+      "z": -0.13
+    },
+    "rotationOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scaleOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  {
+    "id": "EquippedTransformSettings",
+    "positionOffset": {
+      "x": -0.22,
+      "y": 0,
+      "z": 0.31
+    },
+    "rotationOffset": {
+      "x": 180,
+      "y": -25,
+      "z": 180
+    },
+    "scaleOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+],
       "groupIdentifier": "poleaxe",
       "protoId": "poleaxe",
       "hasQuality": true,
@@ -145,7 +144,7 @@
       "dismantledProducts": [
         {
           "key": "<materialOverride>",
-          "value": 5
+          "value": 10
         }
       ]
     }

@@ -8,8 +8,18 @@
       "locKeys": [
         {
           "languageName": "English",
-          "name": "equipment_name_poleaxe",
-          "info": "equipment_info_poleaxe"
+          "name": "Poleaxe",
+          "info": "Ultimate polearm with an axe blade, hammer head, and thrusting spikes on both head and rear. Expensive to craft, but versatile in combat."
+        },
+        {
+          "languageName": "Japanese",
+          "name": "ポールアックス",
+          "info": "斧刃、槌頭、先端と石突きの刺突用スパイクを備えた究極の長柄武器。製作コストは高いが、戦闘では多用途。"
+        },
+        {
+          "languageName": "Chinese",
+          "name": "長柄斧",
+          "info": "終極的近戰武器，配有斧刃、錘頭、槍頭，以及手柄尾端配有尖刺。製作成本高昂，但在戰鬥中用途廣泛。"
         }
       ],
       "jobType": 256,
@@ -22,7 +32,7 @@
       "recipe": [
         {
           "key": 2048,
-          "value": 60
+          "value": 80
         },
         {
           "key": 131072,
@@ -70,19 +80,6 @@
         }
       ],
       "customProducts": [
-        {
-          "input": "iron_ingot",
-          "output": [
-            {
-              "blueprintID": "iron_poleaxe",
-              "amount": 1
-            },
-            {
-              "blueprintID": "ash",
-              "amount": 150
-            }
-          ]
-        },
         {
           "input": "steel_ingot",
           "output": [
