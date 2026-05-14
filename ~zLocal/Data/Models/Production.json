@@ -66,7 +66,7 @@
           ]
         }
       ]
-	},
+    },
     {
       "id": "short_sword",
       "jobType": 256,
@@ -77,7 +77,7 @@
         }
       ]
     },
-	{
+    {
       "id": "falchion",
       "requiredSkills#REMOVE": [
         {
@@ -424,7 +424,7 @@
           "key": 131072,
           "value": 15
         },
-		{
+        {
           "key": "wood",
           "value": 5
         }
@@ -447,7 +447,7 @@
           "key": 131072,
           "value": 25
         },
-		{
+        {
           "key": "wood",
           "value": 20
         }
@@ -508,11 +508,11 @@
           "key": 2048,
           "value": 30
         },
-		{
-		  "key": 131072,
+        {
+          "key": 131072,
           "value": 25
-		},
-		{
+        },
+        {
           "key": "wood",
           "value": 20
         }
@@ -631,7 +631,7 @@
           "key": 131072,
           "value": 15
         },
-		{
+        {
           "key": "wood",
           "value": 5
         }
@@ -744,7 +744,7 @@
           "key": 131072,
           "value": 15
         },
-		{
+        {
           "key": "wood",
           "value": 10
         }
@@ -761,7 +761,7 @@
           "key": 131072,
           "value": 25
         },
-		{
+        {
           "key": "wood",
           "value": 20
         }
@@ -849,12 +849,12 @@
           "key": 131072,
           "value": 20
         },
-		{
+        {
           "key": "wood",
           "value": 10
         }
       ],
-	  "customProducts": [
+      "customProducts": [
         {
           "input": "iron_ingot",
           "output": [
@@ -932,12 +932,12 @@
           "key": 131072,
           "value": 25
         },
-		{
+        {
           "key": "wood",
           "value": 20
         }
       ],
-	  "customProducts": [
+      "customProducts": [
         {
           "input": "iron_ingot",
           "output": [
@@ -1009,7 +1009,7 @@
           "key": 131072,
           "value": 25
         },
-		{
+        {
           "key": "wood",
           "value": 20
         }
@@ -1126,7 +1126,7 @@
           "key": 131072,
           "value": 15
         },
-		{
+        {
           "key": "wood",
           "value": 20
         }
@@ -1167,7 +1167,7 @@
           "type": "spawnProduct"
         }
       ],
-	  "customProducts": [
+      "customProducts": [
         {
           "input": "iron_ingot",
           "output": [
@@ -1331,10 +1331,10 @@
           "key": "wood",
           "value": 25
         },
-		{
-		  "key": "iron_ingot",
-		  "value": 2
-		}
+        {
+          "key": "iron_ingot",
+          "value": 2
+        }
       ],
       "productionSteps": [
         {
@@ -1671,6 +1671,35 @@
     },
     {
       "id": "short_bow",
+      "iconPath": "short_bow",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_short_bow",
+          "info": "equipment_info_short_bow"
+        }
+      ],
+      "jobType": 512,
+      "requiredSkills": [
+        {
+          "key": "Carpentry",
+          "value": 0
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "wood_short_bow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "key": "wood",
+          "value": 20
+        }
+      ],
       "productionSteps": [
         {
           "devName": "collectResources",
@@ -1710,10 +1739,33 @@
     },
     {
       "id": "war_bow",
+      "iconPath": "war_bow",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_war_bow",
+          "info": "equipment_info_war_bow"
+        }
+      ],
+      "jobType": 512,
       "requiredSkills": [
         {
           "key": "Carpentry",
           "value": 10
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "wood_war_bow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "key": "wood",
+          "value": 30
         }
       ],
       "productionSteps": [
@@ -1755,10 +1807,33 @@
     },
     {
       "id": "long_bow",
+      "iconPath": "long_bow",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_long_bow",
+          "info": "equipment_info_long_bow"
+        }
+      ],
+      "jobType": 512,
       "requiredSkills": [
         {
           "key": "Carpentry",
           "value": 15
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "wood_long_bow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "key": "wood",
+          "value": 40
         }
       ],
       "productionSteps": [
@@ -1800,10 +1875,27 @@
     },
     {
       "id": "curved_bow",
+      "iconPath": "curved_bow",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_curved_bow",
+          "info": "equipment_info_curved_bow"
+        }
+      ],
+      "jobType": 512,
       "requiredSkills": [
         {
           "key": "Carpentry",
           "value": 15
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "wood_curved_bow",
+          "amount": 1
         }
       ],
       "recipe": [
@@ -1851,10 +1943,27 @@
     },
     {
       "id": "light_crossbow",
+      "iconPath": "light_crossbow",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_light_crossbow",
+          "info": "equipment_info_light_crossbow"
+        }
+      ],
+      "jobType": 512,
       "requiredSkills": [
         {
           "key": "Carpentry",
           "value": 15
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "wood_light_crossbow",
+          "amount": 1
         }
       ],
       "recipe": [
@@ -1906,6 +2015,29 @@
     },
     {
       "id": "crossbow",
+      "iconPath": "crossbow",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_crossbow",
+          "info": "equipment_info_crossbow"
+        }
+      ],
+      "jobType": 512,
+      "requiredSkills": [
+        {
+          "key": "Carpentry",
+          "value": 20
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "wood_crossbow",
+          "amount": 1
+        }
+      ],
       "recipe": [
         {
           "key": "wood",
@@ -1955,10 +2087,27 @@
     },
     {
       "id": "heavy_crossbow",
+      "iconPath": "heavy_crossbow",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_heavy_crossbow",
+          "info": "equipment_info_heavy_crossbow"
+        }
+      ],
+      "jobType": 512,
       "requiredSkills": [
         {
           "key": "Carpentry",
           "value": 30
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "wood_heavy_crossbow",
+          "amount": 1
         }
       ],
       "recipe": [
@@ -2008,7 +2157,438 @@
         }
       ]
     },
-	{
+    {
+      "id": "throwing_axes",
+      "iconPath": "throwing_axes",
+      "iconColorValue": "#bebebe",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_throwing_axes",
+          "info": "equipment_info_throwing_axes"
+        }
+      ],
+      "jobType": 256,
+      "requiredSkills": [
+        {
+          "key": "Smithing",
+          "value": 10
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "iron_throwing_axes",
+          "amount": 1
+        },
+        {
+          "blueprintID": "ash",
+          "amount": 25
+        }
+      ],
+      "recipe": [
+        {
+          "key": "iron_ingot",
+          "value": 5
+        },
+        {
+          "key": "wood",
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "name_prod_resources"
+            }
+          ],
+          "interruptible": true
+        },
+        {
+          "devName": "makingMetalWeaponMed",
+          "type": "workerProduce",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "name_prod_make_weapon"
+            }
+          ],
+          "productionTime": 550,
+          "modifyingAttribute": "SmithingSpeed",
+          "interruptible": true,
+          "experienceReward": [
+            {
+              "key": "Smithing",
+              "value": 400
+            }
+          ]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "light_javelins",
+      "iconPath": "light_javelins",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_light_javelins",
+          "info": "equipment_info_light_javelins"
+        }
+      ],
+      "jobType": 512,
+      "requiredSkills": [
+        {
+          "key": "Carpentry",
+          "value": 0
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "light_javelins",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "key": "wood",
+          "value": 20
+        }
+      ],
+      "productionSteps": [
+        {
+          "devName": "collectResources",
+          "type": "collect",
+          "interruptible": true
+        },
+        {
+          "devName": "makingWoodenWeaponMed",
+          "type": "workerProduce",
+          "productionTime": 200,
+          "modifyingAttribute": "WoodWorkingSpeed",
+          "interruptible": true,
+          "experienceReward": [
+            {
+              "key": "Carpentry",
+              "value": 400
+            }
+          ]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "sling",
+      "iconPath": "sling",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_sling",
+          "info": "equipment_info_sling"
+        }
+      ],
+      "jobType": 512,
+      "requiredSkills": [
+        {
+          "key": "Tailoring",
+          "value": 0
+        }
+      ],
+      "recipe": [
+        {
+          "key": 256,
+          "value": 5
+        }
+      ],
+      "productionSteps": [
+        {
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "name_prod_resources"
+            }
+          ],
+          "interruptible": true
+        },
+        {
+          "devName": "sewingRoughHat",
+          "type": "workerProduce",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "name_prod_make_hat"
+            }
+          ],
+          "productionTime": 100,
+          "modifyingAttribute": "MakeClothesSpeed",
+          "interruptible": true,
+          "experienceReward": [
+            {
+              "key": "Tailoring",
+              "value": 200
+            }
+          ]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ],
+      "customProducts": [
+        {
+          "input": "linen_cloth",
+          "output": [
+            {
+              "blueprintID": "linen_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather",
+          "output": [
+            {
+              "blueprintID": "leather_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "wool_cloth",
+          "output": [
+            {
+              "blueprintID": "wool_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_hare",
+          "output": [
+            {
+              "blueprintID": "leather_hare_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_wolf",
+          "output": [
+            {
+              "blueprintID": "leather_wolf_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_boar",
+          "output": [
+            {
+              "blueprintID": "leather_boar_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_fox",
+          "output": [
+            {
+              "blueprintID": "leather_fox_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_rat",
+          "output": [
+            {
+              "blueprintID": "leather_rat_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_polecat",
+          "output": [
+            {
+              "blueprintID": "leather_polecat_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_cow",
+          "output": [
+            {
+              "blueprintID": "leather_cow_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_goat",
+          "output": [
+            {
+              "blueprintID": "leather_goat_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_sheep",
+          "output": [
+            {
+              "blueprintID": "leather_sheep_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_donkey",
+          "output": [
+            {
+              "blueprintID": "leather_donkey_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_cat",
+          "output": [
+            {
+              "blueprintID": "leather_cat_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_dog",
+          "output": [
+            {
+              "blueprintID": "leather_dog_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_human",
+          "onStartEffector": "MadeSomethigOutOfHumanLeather",
+          "output": [
+            {
+              "blueprintID": "leather_human_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_bear",
+          "output": [
+            {
+              "blueprintID": "leather_bear_sling",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "input": "leather_water_vole",
+          "output": [
+            {
+              "blueprintID": "leather_water_vole_sling",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sling_staff",
+      "iconPath": "sling_staff",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_sling_staff",
+          "info": "equipment_info_sling_staff"
+        }
+      ],
+      "jobType": 512,
+      "requiredSkills": [
+        {
+          "key": "Carpentry",
+          "value": 0
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "wood_sling_staff",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "key": 256,
+          "value": 5
+        },
+        {
+          "key": "wood",
+          "value": 10
+        }
+      ],
+      "productionSteps": [
+        {
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "name_prod_resources"
+            }
+          ],
+          "interruptible": true
+        },
+        {
+          "devName": "makingWoodenWeaponShort",
+          "type": "workerProduce",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "name_prod_make_weapon"
+            }
+          ],
+          "productionTime": 90,
+          "modifyingAttribute": "WoodWorkingSpeed",
+          "interruptible": true,
+          "experienceReward": [
+            {
+              "key": "Carpentry",
+              "value": 300
+            }
+          ]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
       "id": "pavise_shield",
       "iconPath": "pavise_shield",
       "iconColorValue": "#B3803A",
@@ -2076,7 +2656,7 @@
         }
       ]
     },
-	{
+    {
       "id": "buckler_shield",
       "iconPath": "buckler_shield",
       "iconColorValue": "#B3803A",
@@ -2144,7 +2724,7 @@
         }
       ]
     },
-	{
+    {
       "id": "metal_buckler_shield",
       "iconPath": "buckler_shield",
       "iconColorValue": "#9E9890",
@@ -2208,9 +2788,9 @@
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
-	  ],
-	  "customProducts": [
-		{
+      ],
+      "customProducts": [
+        {
           "input": "iron_ingot",
           "output": [
             {
@@ -2396,9 +2976,9 @@
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
-	  ],
-	  "customProducts": [
-		{
+      ],
+      "customProducts": [
+        {
           "input": "iron_ingot",
           "output": [
             {
@@ -2584,9 +3164,9 @@
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
-	  ],
-	  "customProducts": [
-		{
+      ],
+      "customProducts": [
+        {
           "input": "iron_ingot",
           "output": [
             {
@@ -2704,9 +3284,9 @@
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
-	  ],
-	  "customProducts": [
-		{
+      ],
+      "customProducts": [
+        {
           "input": "iron_ingot",
           "output": [
             {

@@ -1,0 +1,604 @@
+{
+  "repository": [
+    {
+      "id": "short_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "beautyInputEquipped": 2,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 10,
+        "ignoresArmor": 0.85,
+        "armorDamage": 0.05,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 18,
+        "attackSpeed": 1.5,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ]
+    },
+    {
+      "id": "war_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 10
+        }
+      ],
+      "beautyInputEquipped": 5,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 18,
+        "ignoresArmor": 0.90,
+        "armorDamage": 0.2,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 27,
+        "attackSpeed": 2.2,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ]
+    },
+    {
+      "id": "curved_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 15
+        }
+      ],
+      "beautyInputEquipped": 5,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 25,
+        "ignoresArmor": 0.95,
+        "armorDamage": 0.3,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 38,
+        "attackSpeed": 2.5,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 45
+    },
+    {
+      "id": "long_bow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 10
+        }
+      ],
+      "beautyInputEquipped": 10,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 22,
+        "ignoresArmor": 0.92,
+        "armorDamage": 0.25,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.01,
+        "range": 36,
+        "attackSpeed": 3.0,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 2.5,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.25,
+      "rangedCover": 0,
+      "coverAngle": 60,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ]
+    },
+    {
+      "id": "light_crossbow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 0
+        }
+      ],
+      "beautyInputEquipped": 10,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandCrossbow",
+        "damage": 22,
+        "ignoresArmor": 1,
+        "armorDamage": 0.1,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.01,
+        "range": 20,
+        "attackSpeed": 3.5,
+        "projectilePrefabAddress": "BoltProjectile",
+        "projectileArcHeight": 0.3,
+        "projectileSpeed": 1.15,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootCrossbow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.15,
+      "rangedCover": 0,
+      "coverAngle": 45,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Short"
+        }
+      ]
+    },
+    {
+      "id": "crossbow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 10
+        }
+      ],
+      "beautyInputEquipped": 10,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandCrossbow",
+        "damage": 48,
+        "ignoresArmor": 1,
+        "armorDamage": 0.3,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.01,
+        "range": 24,
+        "attackSpeed": 8.0,
+        "projectilePrefabAddress": "BoltProjectile",
+        "projectileArcHeight": 0.3,
+        "projectileSpeed": 1.2,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootCrossbow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 45,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Short"
+        }
+      ]
+    },
+    {
+      "id": "heavy_crossbow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 15
+        }
+      ],
+      "beautyInputEquipped": 10,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandCrossbow",
+        "damage": 75,
+        "ignoresArmor": 1,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.01,
+        "range": 28,
+        "attackSpeed": 15.0,
+        "projectilePrefabAddress": "BoltProjectile",
+        "projectileArcHeight": 0.3,
+        "projectileSpeed": 1.3,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootCrossbow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 8,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.8,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6.3,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.25,
+      "rangedCover": 0,
+      "coverAngle": 45,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Short"
+        }
+      ]
+    },
+    {
+      "id": "throwing_axes",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 5
+        }
+      ],
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandThrow",
+        "damage": 35,
+        "ignoresArmor": 0.65,
+        "armorDamage": 0.7,
+        "buildingDamage": 0.9,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 10,
+        "attackSpeed": 3
+      }
+    },
+    {
+      "id": "light_javelins",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "beautyInputEquipped": 3,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandThrow",
+        "damage": 40,
+        "ignoresArmor": 0.75,
+        "armorDamage": 0.55,
+        "buildingDamage": 0.15,
+        "precision": 1,
+        "precisionFalloff": 0.02,
+        "range": 15,
+        "attackSpeed": 4
+        }
+    },
+    {
+      "id": "sling",
+      "itemType": 1,
+      "equipmentSlots": 1,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "OneHandSling",
+        "damage": 12,
+        "ignoresArmor": 0.6,
+        "armorDamage": 0.25,
+        "buildingDamage": 0.55,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 20,
+        "attackSpeed": 1.2,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0.3
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.55,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "meleeCover": 0,
+      "rangedCover": 0,
+      "coverAngle": 0
+    },
+    {
+      "id": "sling_staff",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandSling",
+        "damage": 20,
+        "ignoresArmor": 0.7,
+        "armorDamage": 0.35,
+        "buildingDamage": 1,
+        "precision": 0.95,
+        "precisionFalloff": 0.02,
+        "range": 30,
+        "attackSpeed": 3,
+        "projectilePrefabAddress": "StoneProjectile",
+        "projectileOffset": {
+          "x": 0,
+          "y": 1.2,
+          "z": -0.2
+        },
+        "projectileArcHeight": 2,
+        "projectileSpeed": 0.6,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1.2,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootSling"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandStaff",
+        "damage": 20,
+        "ignoresArmor": 0.45,
+        "armorDamage": 0.8,
+        "buildingDamage": 1,
+        "precision": 0.95,
+        "precisionFalloff": 0,
+        "range": 0.2,
+        "attackSpeed": 5.4,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 1,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.2,
+      "rangedCover": 0,
+      "coverAngle": 30
+    }
+  ]
+}
