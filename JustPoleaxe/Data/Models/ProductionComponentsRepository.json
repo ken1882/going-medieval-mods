@@ -1,0 +1,10 @@
+{
+  "repository": [
+    {
+      "id": "blacksmith_station",
+      "productions#APPEND": [
+        "poleaxe"
+      ]
+    }
+  ]
+}

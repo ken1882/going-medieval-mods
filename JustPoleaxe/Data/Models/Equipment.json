@@ -1,0 +1,45 @@
+{
+  "repository": [
+    {
+      "id": "poleaxe",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.12,
+      "requiredSkills": [
+        {
+          "key": "Melee",
+          "value": 30
+        }
+      ],
+      "beautyInputEquipped": 16,
+      "carryHand": 1,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandSpear",
+        "damage": 38,
+        "ignoresArmor": 0.85,
+        "armorDamage": 1.35,
+        "buildingDamage": 1.75,
+        "precision": 0.9,
+        "precisionFalloff": 0,
+        "range": 0.7,
+        "attackSpeed": 6.8,
+        "hitEffectorGroupIDs": [
+          "WoundsCutting",
+          "WoundsPiercing",
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsCuttingHead",
+          "WoundsPiercingHead",
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 3,
+        "loseHpOnMiss": false,
+        "weaponSound": "SpearSlash"
+      },
+      "meleeCover": 0.22,
+      "rangedCover": 0,
+      "coverAngle": 90
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "repository": [
+    {
+      "id": "poleaxe",
+      "materials": [
+        "iron",
+        "steel",
+        "gold",
+        "silver"
+      ],
+      "iconPath": "poleaxe",
+      "iconBackgroundPath": "melee_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "Poleaxe",
+          "info": "Ultimate polearm with an axe blade, hammer head, and thrusting spikes on both head and rear. Expensive to craft, but versatile in combat.",
+          "tooltipLines": [
+            "pile_tooltip_info_ArmorDamageHigh",
+            "pile_tooltip_info_BuildingDamageHigh",
+            "pile_tooltip_info_ArmourPenetrationHigh"
+          ]
+        },
+        {
+          "languageName": "Japanese",
+          "name": "ポールアックス",
+          "info": "斧刃、槌頭、先端と石突きの刺突用スパイクを備えた究極の長柄武器。製作コストは高いが、戦闘では多用途。",
+          "tooltipLines": [
+            "pile_tooltip_info_ArmorDamageHigh",
+            "pile_tooltip_info_BuildingDamageHigh",
+            "pile_tooltip_info_ArmourPenetrationHigh"
+          ]
+        },
+        {
+          "languageName": "Chinese",
+          "name": "長柄斧",
+          "info": "終極的近戰武器，配有斧刃、錘頭、槍頭，以及手柄尾端配有尖刺。製作成本高昂，但在戰鬥中用途廣泛。",
+          "tooltipLines": [
+            "pile_tooltip_info_ArmorDamageHigh",
+            "pile_tooltip_info_BuildingDamageHigh",
+            "pile_tooltip_info_ArmourPenetrationHigh"
+          ]
+        }
+      ],
+      "prefabPileID": "base_equipment_pile",
+      "variationLists": [
+        {
+          "name": "QualityVariations",
+          "variations": [
+            {
+              "name": "quality01",
+              "slots": [
+                {
+                  "id": "1",
+                  "slot": "baseMesh",
+                  "slotType": "Mesh",
+                  "value": "greataxe"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MaterialParameters",
+          "variations": [
+            {
+              "name": "defaultMaterialParametars",
+              "slots": [
+                {
+                  "id": "1",
+                  "slot": "albedo",
+                  "slotType": "Texture",
+                  "value": "base_melee_weapon_2"
+                },
+                {
+                  "id": "2",
+                  "slot": "material_map",
+                  "slotType": "Texture",
+                  "value": "base_melee_weapon_metal_material"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "equippedPrefabID": "base_equiped_weapon",
+      "transformSettingsArray": [
+        {
+          "id": "PileTransformSettings",
+          "positionOffset": {
+            "x": 0.09,
+            "y": 0.02,
+            "z": -0.15
+          },
+          "rotationOffset": {
+            "x": 90,
+            "y": -35,
+            "z": 0
+          },
+          "scaleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "id": "EquippedTransformSettings",
+          "positionOffset": {
+            "x": -0.1,
+            "y": 0,
+            "z": 0
+          },
+          "rotationOffset": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+          },
+          "scaleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "groupIdentifier": "poleaxe",
+      "protoId": "poleaxe",
+      "hasQuality": true,
+      "weight": 6,
+      "stackingLimit": 1,
+      "haulPriority": 15,
+      "hitpoints": 300,
+      "beautyInput": -3,
+      "beautyInputOnShelf": 30,
+      "flammability": 0.6,
+      "decomposeModifiersId": "default_equipment_decay",
+      "wealthPoints": 95,
+      "category": 65536,
+      "sortingGroup": "MeleeTwohanded",
+      "almanacTags": [
+        "almanac_group_name_Equipment",
+        "almanac_group_name_Melee",
+        "almanac_group_name_Warfare"
+      ],
+      "itemMaterialCategory": 1,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 5
+        }
+      ]
+    }
+  ]
+}

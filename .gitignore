@@ -84,6 +84,7 @@ pnpm-debug.log*
 aa/
 AddressablesBuildTEP.json
 Assets/AddressableAssetsData/*/*.bin
+StreamingAssets/
 
 # FoxyVoxel / Going Medieval modding export output
 # Keep generated exports out of Git; copy final bundles into each mod's

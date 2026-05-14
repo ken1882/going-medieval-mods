@@ -1,0 +1,12 @@
+{
+  "repository": [
+    {
+      "id": "axes_lvl2",
+      "unlocks#APPEND": [
+        {
+          "unlockId": "poleaxe"
+        }
+      ]
+    }
+  ]
+}
