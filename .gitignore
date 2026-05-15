@@ -86,6 +86,52 @@ AddressablesBuildTEP.json
 Assets/AddressableAssetsData/*/*.bin
 StreamingAssets/
 
+# UnityProject generated files and local editor state
+/UnityProject/[Ll]ibrary/
+/UnityProject/[Tt]emp/
+/UnityProject/[Oo]bj/
+/UnityProject/[Bb]uild/
+/UnityProject/[Ll]ogs/
+/UnityProject/[Uu]ser[Ss]ettings/
+/UnityProject/[Aa]ssets/Plugins/Editor/JetBrains*
+/UnityProject/*.vsconfig
+/UnityProject/UpgradeLog.htm
+/UnityProject/ExportedObj/
+/UnityProject/.consulo/
+/UnityProject/[Aa]ssets/Resources/Checksums.json
+/UnityProject/[Aa]ssets/Resources/Checksums.json.meta
+/UnityProject/[Aa]ssets/Plugins/FMOD/Cache/*
+/UnityProject/[Aa]ssets/StreamingAssets/**/*.bank
+/UnityProject/[Aa]ssets/StreamingAssets/**/*.bank.meta
+
+# UnityProject generated project files and logs
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+StyleCop.Cache
+Going Medieval.sln.DotSettings
+fmod_editor.log
+BuildStatus.log
+*.pdata
+
+# Keep UnityProject FMOD editor assets that must remain versioned
+!/UnityProject/[Aa]ssets/Plugins/FMOD/**/lib/*
+!/UnityProject/[Aa]ssets/Gizmos/FMOD/*
+!/UnityProject/[Aa]ssets/Editor Default Resources/FMOD/*
+
+# Keep authored UnityProject mod work while ignoring generated exports
+!/UnityProject/[Aa]ssets/[Mm]ods/
+!/UnityProject/[Aa]ssets/[Mm]ods/[Ff][Vv][Mm]od/
+!/UnityProject/[Aa]ssets/[Mm]ods/[Ff][Vv][Mm]od/**
+/UnityProject/[Aa]ssets/[Mm]ods/[Ff][Vv][Mm]od/[Ee]xported/
+!/UnityProject/[Aa]ssets/[Mm]ods/[Jj]ust[Pp]oleaxe/
+!/UnityProject/[Aa]ssets/[Mm]ods/[Jj]ust[Pp]oleaxe/**
+
 # FoxyVoxel / Going Medieval modding export output
 # Keep generated exports out of Git; copy final bundles into each mod's
 # Data/AddressableAssets/ when you want to version/release them.
