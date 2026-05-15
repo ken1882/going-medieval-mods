@@ -4,7 +4,7 @@
       "id": "poleaxe",
       "itemType": 1,
       "equipmentSlots": 3,
-      "decompositionCoefficient": 0.12,
+      "decompositionCoefficient": 0.1,
       "requiredSkills": [
         {
           "key": "Melee",
@@ -16,12 +16,12 @@
       "primaryWeaponMode": {
         "weaponType": "TwoHandSpear",
         "damage": 38,
-        "ignoresArmor": 0.85,
+        "ignoresArmor": 0.9,
         "armorDamage": 1.35,
         "buildingDamage": 1.75,
-        "precision": 0.9,
+        "precision": 0.95,
         "precisionFalloff": 0,
-        "range": 0.7,
+        "range": 1.0,
         "attackSpeed": 6.0,
         "hitEffectorGroupIDs": [
           "WoundsCutting",
