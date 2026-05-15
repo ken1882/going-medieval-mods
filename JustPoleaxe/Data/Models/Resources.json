@@ -33,7 +33,7 @@
         {
           "languageName": "Chinese",
           "name": "長柄斧",
-          "info": "終極的近戰武器，配有斧刃、錘頭、槍頭，以及手柄尾端配有尖刺。製作成本高昂，但在戰鬥中用途廣泛。",
+          "info": "終極的長柄武器，配有斧刃、錘頭、槍頭，以及手柄尾端配有尖刺。製作成本高昂，但在戰鬥中用途廣泛。",
           "tooltipLines": [
             "pile_tooltip_info_ArmorDamageHigh",
             "pile_tooltip_info_BuildingDamageHigh",
@@ -89,11 +89,11 @@
     "positionOffset": {
       "x": 0.24,
       "y": 0.04,
-      "z": -0.13
+      "z": 0.2
     },
     "rotationOffset": {
       "x": 0,
-      "y": 0,
+      "y": 45,
       "z": 0
     },
     "scaleOffset": {
