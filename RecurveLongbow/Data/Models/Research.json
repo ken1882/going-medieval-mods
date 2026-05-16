@@ -1,0 +1,12 @@
+{
+  "repository": [
+    {
+      "id": "fletchering_lvl2",
+      "unlocks#APPEND": [
+        {
+          "unlockId": "recurve_longbow"
+        }
+      ]
+    }
+  ]
+}

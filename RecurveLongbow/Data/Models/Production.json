@@ -1,0 +1,72 @@
+{
+  "repository": [
+    {
+      "id": "recurve_longbow",
+      "iconPath": "recurve_longbow",
+      "iconColorValue": "#B3803A",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "Recurve Longbow",
+          "info": "A powerful hybrid bow with the reach of a longbow and the snap of a recurve bow."
+        }
+      ],
+      "jobType": 512,
+      "requiredSkills": [
+        {
+          "key": "Carpentry",
+          "value": 20
+        }
+      ],
+      "produced": [
+        {
+          "blueprintID": "wood_recurve_longbow",
+          "amount": 1
+        }
+      ],
+      "recipe": [
+        {
+          "key": "wood",
+          "value": 60
+        }
+      ],
+      "productionSteps": [
+        {
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "name_prod_resources"
+            }
+          ],
+          "interruptible": true
+        },
+        {
+          "devName": "makingWoodenWeaponLong",
+          "type": "workerProduce",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "name_prod_make_weapon"
+            }
+          ],
+          "productionTime": 420,
+          "modifyingAttribute": "WoodWorkingSpeed",
+          "interruptible": true,
+          "experienceReward": [
+            {
+              "key": "Carpentry",
+              "value": 700
+            }
+          ]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    }
+  ]
+}

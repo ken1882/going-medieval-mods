@@ -322,9 +322,124 @@
     },
     {
       "id": "war_bow",
+      "materials": [
+        "wood"
+      ],
+      "iconPath": "war_bow",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_war_bow",
+          "info": "equipment_info_war_bow",
+          "tooltipLines": [
+            "pile_tooltip_info_ArmourPenetrationHigh",
+            "pile_tooltip_info_BonusHigherGround",
+            "pile_tooltip_info_ArmorDamageLow"
+          ]
+        }
+      ],
+      "prefabPileID": "base_equipment_pile",
+      "variationLists": [
+        {
+          "name": "QualityVariations",
+          "variations": [
+            {
+              "name": "quality01",
+              "slots": [
+                {
+                  "id": "1",
+                  "slot": "baseMesh",
+                  "slotType": "Mesh",
+                  "value": "war_bow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MaterialParameters",
+          "variations": [
+            {
+              "name": "defaultMaterialParametars",
+              "slots": [
+                {
+                  "id": "1",
+                  "slot": "albedo",
+                  "slotType": "Texture",
+                  "value": "bow_diffuse"
+                },
+                {
+                  "id": "2",
+                  "slot": "material_map",
+                  "slotType": "Texture",
+                  "value": "bow_material"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "equippedPrefabID": "base_skinned_bow",
+      "skinnedMeshID": "war_bow",
+      "transformSettingsArray": [
+        {
+          "id": "PileTransformSettings",
+          "positionOffset": {
+            "x": -0.06,
+            "y": 0.03,
+            "z": 0.08
+          },
+          "rotationOffset": {
+            "x": 90,
+            "y": 0,
+            "z": -25
+          },
+          "scaleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "id": "EquippedTransformSettings",
+          "positionOffset": {
+            "x": -0.13,
+            "y": 0.01,
+            "z": 0
+          },
+          "rotationOffset": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+          },
+          "scaleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "groupIdentifier": "war_bow",
+      "protoId": "war_bow",
+      "hasQuality": true,
+      "weight": 3,
+      "stackingLimit": 1,
+      "haulPriority": 15,
       "hitpoints": 300,
       "beautyInput": 1,
+      "beautyInputOnShelf": 10,
+      "flammability": 0.6,
+      "decomposeModifiersId": "default_equipment_decay",
       "wealthPoints": 40,
+      "category": 65536,
+      "sortingGroup": "WeaponRanged",
+      "almanacTags": [
+        "almanac_group_name_Equipment",
+        "almanac_group_name_Ranged",
+        "almanac_group_name_Warfare"
+      ],
+      "itemMaterialCategory": 3,
       "dismantledProducts": [
         {
           "key": "<materialOverride>",
@@ -334,10 +449,124 @@
     },
     {
       "id": "curved_bow",
+      "materials": [
+        "wood"
+      ],
+      "iconPath": "curved_bow",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "equipment_name_curved_bow",
+          "info": "equipment_info_curved_bow",
+          "tooltipLines": [
+            "pile_tooltip_info_ArmourPenetrationHigh",
+            "pile_tooltip_info_BonusHigherGround",
+            "pile_tooltip_info_ArmorDamageLow"
+          ]
+        }
+      ],
+      "prefabPileID": "base_equipment_pile",
+      "variationLists": [
+        {
+          "name": "QualityVariations",
+          "variations": [
+            {
+              "name": "quality01",
+              "slots": [
+                {
+                  "id": "1",
+                  "slot": "baseMesh",
+                  "slotType": "Mesh",
+                  "value": "masterwork_bow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MaterialParameters",
+          "variations": [
+            {
+              "name": "defaultMaterialParametars",
+              "slots": [
+                {
+                  "id": "1",
+                  "slot": "albedo",
+                  "slotType": "Texture",
+                  "value": "bow_diffuse"
+                },
+                {
+                  "id": "2",
+                  "slot": "material_map",
+                  "slotType": "Texture",
+                  "value": "bow_material"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "equippedPrefabID": "base_skinned_bow",
+      "skinnedMeshID": "masterwork_bow",
+      "transformSettingsArray": [
+        {
+          "id": "PileTransformSettings",
+          "positionOffset": {
+            "x": -0.06,
+            "y": 0.03,
+            "z": 0.08
+          },
+          "rotationOffset": {
+            "x": 90,
+            "y": 0,
+            "z": -25
+          },
+          "scaleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "id": "EquippedTransformSettings",
+          "positionOffset": {
+            "x": -0.13,
+            "y": 0.01,
+            "z": 0
+          },
+          "rotationOffset": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+          },
+          "scaleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "groupIdentifier": "curved_bow",
+      "protoId": "curved_bow",
+      "hasQuality": true,
+      "weight": 3,
+      "stackingLimit": 1,
+      "haulPriority": 15,
       "hitpoints": 350,
       "beautyInput": 2,
       "beautyInputOnShelf": 25,
+      "flammability": 0.6,
+      "decomposeModifiersId": "default_equipment_decay",
       "wealthPoints": 50,
+      "category": 65536,
+      "sortingGroup": "WeaponRanged",
+      "almanacTags": [
+        "almanac_group_name_Equipment",
+        "almanac_group_name_Ranged",
+        "almanac_group_name_Warfare"
+      ],
+      "itemMaterialCategory": 3,
       "dismantledProducts": [
         {
           "key": "<materialOverride>",

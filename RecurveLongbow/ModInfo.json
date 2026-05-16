@@ -1,0 +1,11 @@
+{
+    "id": "compeador.recurve_longbow",
+    "name": "Recurve Longbow",
+    "description": "Adds a recurve longbow to the game.",
+    "author": "Compeador",
+    "modVersion": "0.1",
+    "gameVersion": "1.0.87",
+    "tags": [
+        "General"
+    ]
+}

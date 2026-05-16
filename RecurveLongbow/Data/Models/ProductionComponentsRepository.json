@@ -1,0 +1,10 @@
+{
+  "repository": [
+    {
+      "id": "fletchers_table",
+      "productions#APPEND": [
+        "recurve_longbow"
+      ]
+    }
+  ]
+}

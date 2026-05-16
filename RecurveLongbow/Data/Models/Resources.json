@@ -1,0 +1,131 @@
+{
+  "repository": [
+    {
+      "id": "recurve_longbow",
+      "materials": [
+        "wood"
+      ],
+      "iconPath": "recurve_longbow",
+      "iconBackgroundPath": "ranged_weapon_background",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "Recurve Longbow",
+          "info": "A powerful hybrid bow with the reach of a longbow and the snap of a recurve bow.",
+          "tooltipLines": [
+            "pile_tooltip_info_ArmourPenetrationHigh",
+            "pile_tooltip_info_BonusHigherGround",
+            "pile_tooltip_info_ArmorDamageLow"
+          ]
+        }
+      ],
+      "prefabPileID": "base_equipment_pile",
+      "variationLists": [
+        {
+          "name": "QualityVariations",
+          "variations": [
+            {
+              "name": "quality01",
+              "slots": [
+                {
+                  "id": "1",
+                  "slot": "baseMesh",
+                  "slotType": "Mesh",
+                  "value": "recurve_longbow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MaterialParameters",
+          "variations": [
+            {
+              "name": "defaultMaterialParametars",
+              "slots": [
+                {
+                  "id": "1",
+                  "slot": "albedo",
+                  "slotType": "Texture",
+                  "value": "recurve_longbow_Base_color"
+                },
+                {
+                  "id": "2",
+                  "slot": "material_map",
+                  "slotType": "Texture",
+                  "value": "bow_material"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "equippedPrefabID": "base_skinned_bow",
+      "skinnedMeshID": "recurve_longbow",
+      "transformSettingsArray": [
+        {
+          "id": "PileTransformSettings",
+          "positionOffset": {
+            "x": -0.06,
+            "y": 0.15,
+            "z": 0.08
+          },
+          "rotationOffset": {
+            "x": 90,
+            "y": 0,
+            "z": -25
+          },
+          "scaleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "id": "EquippedTransformSettings",
+          "positionOffset": {
+            "x": -0.13,
+            "y": 0.01,
+            "z": 0
+          },
+          "rotationOffset": {
+            "x": 90,
+            "y": 0,
+            "z": 0
+          },
+          "scaleOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "groupIdentifier": "recurve_longbow",
+      "protoId": "recurve_longbow",
+      "hasQuality": true,
+      "weight": 4,
+      "stackingLimit": 1,
+      "haulPriority": 15,
+      "hitpoints": 800,
+      "beautyInput": -4,
+      "beautyInputOnShelf": 30,
+      "flammability": 0.6,
+      "decomposeModifiersId": "default_equipment_decay",
+      "wealthPoints": 160,
+      "category": 65536,
+      "sortingGroup": "WeaponRanged",
+      "almanacTags": [
+        "almanac_group_name_Equipment",
+        "almanac_group_name_Ranged",
+        "almanac_group_name_Warfare"
+      ],
+      "itemMaterialCategory": 3,
+      "dismantledProducts": [
+        {
+          "key": "<materialOverride>",
+          "value": 4
+        }
+      ]
+    }
+  ]
+}

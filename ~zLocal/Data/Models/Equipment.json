@@ -146,7 +146,7 @@
       "primaryWeaponMode": {
         "weaponType": "TwoHandBow",
         "damage": 25,
-        "ignoresArmor": 0.95,
+        "ignoresArmor": 0.9,
         "armorDamage": 0.3,
         "buildingDamage": 0,
         "precision": 1,

@@ -1,0 +1,72 @@
+{
+  "repository": [
+    {
+      "id": "recurve_longbow",
+      "itemType": 1,
+      "equipmentSlots": 3,
+      "decompositionCoefficient": 0.1,
+      "requiredSkills": [
+        {
+          "key": "Marksman",
+          "value": 20
+        }
+      ],
+      "beautyInputEquipped": 14,
+      "carryHand": 2,
+      "primaryWeaponMode": {
+        "weaponType": "TwoHandBow",
+        "damage": 30,
+        "ignoresArmor": 0.8,
+        "armorDamage": 0.4,
+        "buildingDamage": 0,
+        "precision": 1,
+        "precisionFalloff": 0.01,
+        "range": 50,
+        "attackSpeed": 8.1,
+        "canFireFlammableProjectiles": true,
+        "projectilePrefabAddress": "SimpleArrow",
+        "projectileArcHeight": 1.2,
+        "projectileSpeed": 1.3,
+        "hitEffectorGroupIDs": [
+          "WoundsPiercing"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsPiercingHead"
+        ],
+        "hpLossPerUse": 1,
+        "hpLossFlammableProjectileModifier": 3,
+        "loseHpOnMiss": true,
+        "weaponSound": "ShootBow"
+      },
+      "secondaryWeaponMode": {
+        "weaponType": "TwoHandBowMelee",
+        "damage": 10,
+        "ignoresArmor": 0.5,
+        "armorDamage": 0.9,
+        "buildingDamage": 0.8,
+        "precision": 1,
+        "precisionFalloff": 0,
+        "range": 0,
+        "attackSpeed": 6,
+        "hitEffectorGroupIDs": [
+          "WoundsBlunt"
+        ],
+        "criticalHitEffectorGroupIDs": [
+          "WoundsBluntHead"
+        ],
+        "hpLossPerUse": 2.5,
+        "loseHpOnMiss": false,
+        "weaponSound": "StaffSlash"
+      },
+      "meleeCover": 0.28,
+      "rangedCover": 0,
+      "coverAngle": 60,
+      "additionalPrefabs": [
+        {
+          "key": 4,
+          "value": "Quiver_Long"
+        }
+      ]
+    }
+  ]
+}
