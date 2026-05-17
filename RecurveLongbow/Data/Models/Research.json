@@ -1,7 +1,7 @@
 {
   "repository": [
     {
-      "id": "fletchering_lvl2",
+      "id": "crossbows_lvl3",
       "unlocks#APPEND": [
         {
           "unlockId": "recurve_longbow"

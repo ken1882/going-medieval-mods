@@ -1,0 +1,12 @@
+{
+    "id": "compeador.righteous_kills",
+    "name": "Righteous Kills",
+    "description": "Cancel negative mood impacts seeing enemy/stranger dead body and kills.",
+    "author": "Compeador",
+    "modVersion": "0.1",
+    "gameVersion": "1.0.89",
+    "tags": [
+        "General",
+        "Balance"
+    ]
+}

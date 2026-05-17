@@ -1,0 +1,34 @@
+{
+  "repository": [
+    {
+      "id": "SawDeadBody",
+      "effects": [
+        {
+          "devName": "MoodNegativesSawDeadBody",
+          "type": "MoodModify",
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KilledPacifistMood",
+      "effects": [
+        {
+          "devName": "MoodNegativesKilledPacifist",
+          "type": "MoodModify",
+          "parameters": [
+            {
+              "key": "BaseValue",
+              "value": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
