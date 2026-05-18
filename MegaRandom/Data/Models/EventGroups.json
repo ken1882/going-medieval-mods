@@ -1,0 +1,169 @@
+{
+  "repository": [
+    {
+      "id": "CellarFlood",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "coldsnap",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "heatwave",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "animalRaidWolf",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "animalRaid",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "animalRaidRare",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "animalInfestation",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "raid",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "merchant_general",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "merchant_rare",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "merchant_prisoner",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "animalMiscSmall",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "animalWildLarge",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "animalDomesticSingle",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    },
+    {
+      "id": "animalBearSingle",
+      "mapTypeMultipliers#APPEND": {
+        "keys": [
+          "map_type_megarandom"
+        ],
+        "values": [
+          1.0
+        ]
+      }
+    }
+  ]
+}

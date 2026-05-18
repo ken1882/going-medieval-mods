@@ -1,0 +1,28 @@
+{
+  "cellTypes#APPEND": [
+    {
+      "id": 5,
+      "mapType": "map_type_megarandom",
+      "meshes": [
+        "map_type_valley_1",
+        "map_type_valley_2",
+        "map_type_valley_3",
+        "map_type_hill_1",
+        "map_type_hill_2",
+        "map_type_hill_3",
+        "map_type_mountain_1",
+        "map_type_mountain_2"
+      ],
+      "height": 0.35
+    }
+  ],
+  "startMapTypes#APPEND": [
+    "map_type_megarandom"
+  ],
+  "stockModifiersByMapId#APPEND": [
+    {
+      "id": "map_type_megarandom",
+      "stockModifiers": []
+    }
+  ]
+}

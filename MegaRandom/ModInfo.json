@@ -1,0 +1,12 @@
+{
+  "id": "compeador.map_megarandom",
+  "name": "Map: MegaRandom",
+  "description": "Ever dreamed of an endlessly unpredictable map where anything is possible and nothing is guaranteed? Multiply it by ten and you have...",
+  "author": "Compeador",
+  "modVersion": "0.1",
+  "gameVersion": "1.0.87",
+  "tags": [
+      "General",
+      "Map"
+  ]
+}

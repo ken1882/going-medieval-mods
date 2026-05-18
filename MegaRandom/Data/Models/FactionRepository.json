@@ -1,0 +1,100 @@
+{
+  "repository": [
+    {
+      "id": "church_of_third_coming",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "ancrene_disciples",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "faithful_sons_of_england",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "band_of_the she_wolf",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "philosophers_of_the_natural_order",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "society_of_fellows",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "kingdom_of_york",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "heresy_of_the_rose",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "circle_of_avalon",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "beirdd_cymraeg",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "progeny_of_the_plague",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "ravagers",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "forest_bandits",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "mountain_bandits",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "river_bandits",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "looters",
+      "mapCellTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    }
+  ]
+}

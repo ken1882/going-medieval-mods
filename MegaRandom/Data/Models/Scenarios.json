@@ -1,0 +1,28 @@
+{
+  "repository": [
+    {
+      "id": "default_1",
+      "startMapTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "default_2",
+      "startMapTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "default_3",
+      "startMapTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    },
+    {
+      "id": "default_4",
+      "startMapTypes#APPEND": [
+        "map_type_megarandom"
+      ]
+    }
+  ]
+}
