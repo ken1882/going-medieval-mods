@@ -20,13 +20,13 @@
         "armorDamage": 0.4,
         "buildingDamage": 0,
         "precision": 1,
-        "precisionFalloff": 0.01,
-        "range": 50,
+        "precisionFalloff": 0.02,
+        "range": 42,
         "attackSpeed": 8.1,
         "canFireFlammableProjectiles": true,
         "projectilePrefabAddress": "SimpleArrow",
-        "projectileArcHeight": 1.2,
-        "projectileSpeed": 1.3,
+        "projectileArcHeight": 2,
+        "projectileSpeed": 1,
         "hitEffectorGroupIDs": [
           "WoundsPiercing"
         ],
