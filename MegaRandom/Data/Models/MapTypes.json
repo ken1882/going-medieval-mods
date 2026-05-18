@@ -7,11 +7,7 @@
           "languageName": "English",
           "name": "MegaRandom",
           "info": "Ever dreamed of an endlessly unpredictable map where anything is possible and nothing is guaranteed? Multiply it by ten and you have...",
-          "tooltipLines": [
-            "Uses MapTypesDev test-map overrides",
-            "Extreme terrain and water roulette",
-            "Fuck balance: generated for chaos"
-          ]
+          "tooltipLines": []
         }
       ],
       "seasonOverrides": [
