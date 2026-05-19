@@ -11,7 +11,27 @@
         {
           "languageName": "English",
           "name": "Recurve Longbow",
-          "info": "A powerful hybrid bow with the reach of a longbow and the snap of a recurve bow.",
+          "info": "A powerful hybrid bow of longbow and recurve bow, requires at least 120lb of draw weight to effectively use its superior range.",
+          "tooltipLines": [
+            "pile_tooltip_info_ArmourPenetrationHigh",
+            "pile_tooltip_info_BonusHigherGround",
+            "pile_tooltip_info_ArmorDamageLow"
+          ]
+        },
+        {
+          "languageName": "Chinese",
+          "name": "反曲長弓",
+          "info": "結合了長弓和反曲弓的特性強大遠程武器，需要至少120磅的拉力才能有效利用其優越的射程。",
+          "tooltipLines": [
+            "pile_tooltip_info_ArmourPenetrationHigh",
+            "pile_tooltip_info_BonusHigherGround",
+            "pile_tooltip_info_ArmorDamageLow"
+          ]
+        },
+        {
+          "languageName": "Japanese",
+          "name": "リカーブロングボウ",
+          "info": "ロングボウとリカーブボウの特性を組み合わせた強力な遠距離武器で、優れた射程を効果的に利用するには少なくとも120ポンドの引き重量が必要です。",
           "tooltipLines": [
             "pile_tooltip_info_ArmourPenetrationHigh",
             "pile_tooltip_info_BonusHigherGround",
