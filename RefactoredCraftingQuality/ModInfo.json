@@ -1,12 +1,13 @@
 {
     "id": "compeador.refactor_crafting_quality",
     "name": "Refactored Crafting Quality",
-    "description": "Refactors the crafting quality system with gaussian distribution.",
+    "description": "Rebalance the crafting quality system with normal distribution.\n\nInstead of the original uneven progression, crafting level now has smoother advancement across item qualities. As the skill level improves, the most likely crafted quality gradually shifts upward instead of jumping abruptly between tiers.\n\nSettler with corresponding crafting level 50 has around 95% of producing flawless item.\n\nChart comparison:\n\n[img]https://i.postimg.cc/VvtwF0fh/output2.png[/img]\n\n[img]https://i.postimg.cc/NMSYTkc3/output.png[/img]\n",
     "author": "Compeador",
     "modVersion": "0.1",
     "gameVersion": "1.0.87",
     "tags": [
-        "Gameplay",
-        "Balance"
+        "General",
+        "Balance",
+        "Gameplay"
     ]
 }

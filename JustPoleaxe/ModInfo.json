@@ -1,7 +1,7 @@
 {
     "id": "compeador.just_poleaxe",
     "name": "Just Poleaxe",
-    "description": "Adds a poleaxe to the game.",
+    "description": "Adds a craftable poleaxe, capable of dealing all three slash/blunt/pierce damage; high AP, armour&building damage.\n[list]\n[*][b]Requires Melee 25 to use[/b]\n[*]Unlocked from research [b]Axes II[/b]\n[*]Crafted at the [b]Blacksmith Forge with Smithing 25[/b]\n[*]Materials available: [b]Steel[/b], [b]Gold[/b], or [b]Silver[/b]\n[*][b]IMPORTANT: untick other metals (such as iron ingot) in the production recipe, otherwise your ingredients will vanish.[/b]\n[*][b]IMPORTANT: disable other metal materials (such as iron ingot) in the production recipe, otherwise your ingredients will gone.[/b]\n[*][b]IMPORTANT: cancel other metallistics usage (such as iron ingot) in the production recipe, otherwise your ingredients will disappear.[/b]\n[/list]\n\n[h2]Stats Compared To Greatsword[/h2]\n\n[table]\n[tr]\n[th]Stat[/th]\n[th]Poleaxe[/th]\n[th]Greatsword[/th]\n[/tr]\n[tr]\n[td]Damage[/td]\n[td]38[/td]\n[td]40[/td]\n[/tr]\n[tr]\n[td]Attack duration[/td]\n[td]6.0s[/td]\n[td]4.5s[/td]\n[/tr]\n[tr]\n[td]Range[/td]\n[td]1.0m[/td]\n[td]0.3m[/td]\n[/tr]\n[tr]\n[td]Armor penetration[/td]\n[td]90%[/td]\n[td]70%[/td]\n[/tr]\n[tr]\n[td]Armor damage[/td]\n[td]135%[/td]\n[td]60%[/td]\n[/tr]\n[tr]\n[td]Building damage[/td]\n[td]175%[/td]\n[td]40%[/td]\n[/tr]\n[/table]\n\nSpecial thanks to Lyosha and Evilebob in official Discord helping with assets configuration.\n\nCredits:\n3D model by Kim Niemann (CC BY)\n",
     "author": "Compeador",
     "modVersion": "0.1",
     "gameVersion": "1.0.87",

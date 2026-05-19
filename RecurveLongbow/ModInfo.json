@@ -1,7 +1,7 @@
 {
     "id": "compeador.recurve_longbow",
     "name": "Recurve Longbow",
-    "description": "Adds a recurve longbow to the game.",
+    "description": "Feeling weird that crossbows outrange longbows? Want a superior option for your glorious longbowmen? Then this mod is for you.\n\nIntroducing the Recurve Longbow, a high-draw-weight bow designed to suppress enemies from long range by firing arrows in a higher arc, trading accuracy for superior reach.\n\n[list]\n[*]Requires [b]Marksman 20[/b] to use due to its > 120lb draw weight.\n[*]Unlocked via [b]Crossbows II[/b] research (for sake of balance).\n[*]Craftable at the [b]Bowyer's Table[/b] after reaching [b]Carpentry 20[/b].\n[/list]\n\n[h2]Stat Comparison: Heavy Crossbow[/h2]\n\n[table]\n[tr]\n[th]Stat[/th]\n[th]Recurve Longbow[/th]\n[th]Heavy Crossbow[/th]\n[/tr]\n[tr]\n[td]Damage[/td]\n[td]30[/td]\n[td]36[/td]\n[/tr]\n[tr]\n[td]Attack Time[/td]\n[td]8.1[/td]\n[td]13.5[/td]\n[/tr]\n[tr]\n[td]Range[/td]\n[td]42[/td]\n[td]25[/td]\n[/tr]\n[tr]\n[td]Armor Penetration[/td]\n[td]80%[/td]\n[td]92%[/td]\n[/tr]\n[tr]\n[td]Armor Damage[/td]\n[td]40%[/td]\n[td]50%[/td]\n[/tr]\n[tr]\n[td]Precision Falloff[/td]\n[td]0.02[/td]\n[td]0.01[/td]\n[/tr]\n[tr]\n[td]Projectile Speed[/td]\n[td]1[/td]\n[td]1.3[/td]\n[/tr]\n[tr]\n[td]Projectile Arc Height[/td]\n[td]2[/td]\n[td]0.3[/td]\n[/tr]\n[/table]\n\n[hr][/hr]\n\nCredits\n3D Model: Gintoki1234 (CC BY)\n",
     "author": "Compeador",
     "modVersion": "0.1",
     "gameVersion": "1.0.87",
