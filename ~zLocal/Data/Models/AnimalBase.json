@@ -1,0 +1,376 @@
+﻿{
+  "repository": [
+    {
+      "id": "deer",
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "deer_young",
+          "storageBase": {
+            "capacity": 300
+          },
+          "caravanStorageCapacity": 400
+        },
+        {
+          "phaseName": "deer_mature",
+          "storageBase": {
+            "capacity": 800
+          },
+          "caravanStorageCapacity": 900
+        }
+      ]
+    },
+    {
+      "id": "hare",
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "hare_young",
+          "storageBase": {
+            "capacity": 20
+          },
+          "caravanStorageCapacity": 20
+        },
+        {
+          "phaseName": "hare_mature",
+          "storageBase": {
+            "capacity": 50
+          },
+          "caravanStorageCapacity": 60
+        }
+      ]
+    },
+    {
+      "id": "wolf",
+      "lifePhases": [
+        {
+          "phaseName": "wolf_young",
+          "storageBase": {
+            "capacity": 250
+          },
+          "caravanStorageCapacity": 300
+        },
+        {
+          "phaseName": "wolf_mature",
+          "storageBase": {
+            "capacity": 350
+          },
+          "caravanStorageCapacity": 400
+        }
+      ]
+    },
+    {
+      "id": "boar",
+      "canHaulAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "boar_young",
+          "storageBase": {
+            "capacity": 400
+          },
+          "caravanStorageCapacity": 460
+        },
+        {
+          "phaseName": "boar_mature",
+          "storageBase": {
+            "capacity": 600
+          },
+          "caravanStorageCapacity": 690
+        }
+      ]
+    },
+    {
+      "id": "pheasant",
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "phesen_young",
+          "storageBase": {
+            "capacity": 20
+          },
+          "caravanStorageCapacity": 20
+        },
+        {
+          "phaseName": "phesen_mature",
+          "storageBase": {
+            "capacity": 50
+          },
+          "caravanStorageCapacity": 60
+        }
+      ]
+    },
+    {
+      "id": "mallard",
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "mallard_young",
+          "storageBase": {
+            "capacity": 20
+          },
+          "caravanStorageCapacity": 20
+        },
+        {
+          "phaseName": "mallard_mature",
+          "storageBase": {
+            "capacity": 50
+          },
+          "caravanStorageCapacity": 60
+        }
+      ]
+    },
+    {
+      "id": "fox",
+      "canBeInPen": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "fox_young",
+          "storageBase": {
+            "capacity": 100
+          },
+          "caravanStorageCapacity": 120
+        },
+        {
+          "phaseName": "fox_mature",
+          "storageBase": {
+            "capacity": 150
+          },
+          "caravanStorageCapacity": 170
+        }
+      ]
+    },
+    {
+      "id": "rat",
+      "canBeInPen": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "rat_young",
+          "storageBase": {
+            "capacity": 20
+          },
+          "caravanStorageCapacity": 20
+        },
+        {
+          "phaseName": "rat_mature",
+          "storageBase": {
+            "capacity": 40
+          },
+          "caravanStorageCapacity": 50
+        }
+      ]
+    },
+    {
+      "id": "water_vole",
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "water_vole_young",
+          "storageBase": {
+            "capacity": 20
+          },
+          "caravanStorageCapacity": 20
+        },
+        {
+          "phaseName": "water_vole_mature",
+          "storageBase": {
+            "capacity": 40
+          },
+          "caravanStorageCapacity": 50
+        }
+      ]
+    },
+    {
+      "id": "polecat",
+      "canBeInPen": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "polecat_young",
+          "storageBase": {
+            "capacity": 20
+          },
+          "caravanStorageCapacity": 20
+        },
+        {
+          "phaseName": "polecat_mature",
+          "storageBase": {
+            "capacity": 30
+          },
+          "caravanStorageCapacity": 30
+        }
+      ]
+    },
+    {
+      "id": "cow",
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "cow_young",
+          "storageBase": {
+            "capacity": 600
+          },
+          "caravanStorageCapacity": 700
+        },
+        {
+          "phaseName": "cow_mature",
+          "storageBase": {
+            "capacity": 1200
+          },
+          "caravanStorageCapacity": 1300
+        }
+      ]
+    },
+    {
+      "id": "goat",
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "goat_young",
+          "storageBase": {
+            "capacity": 250
+          },
+          "caravanStorageCapacity": 300
+        },
+        {
+          "phaseName": "goat_mature",
+          "storageBase": {
+            "capacity": 450
+          },
+          "caravanStorageCapacity": 500
+        }
+      ]
+    },
+    {
+      "id": "sheep",
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "sheep_young",
+          "storageBase": {
+            "capacity": 250
+          },
+          "caravanStorageCapacity": 300
+        },
+        {
+          "phaseName": "sheep_mature",
+          "storageBase": {
+            "capacity": 450
+          },
+          "caravanStorageCapacity": 500
+        }
+      ]
+    },
+    {
+      "id": "donkey",
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "donkey_young",
+          "storageBase": {
+            "capacity": 900
+          },
+          "caravanStorageCapacity": 1000
+        },
+        {
+          "phaseName": "donkey_mature",
+          "storageBase": {
+            "capacity": 1600
+          },
+          "caravanStorageCapacity": 1800
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "chicken_young",
+          "storageBase": {
+            "capacity": 20
+          },
+          "caravanStorageCapacity": 20
+        },
+        {
+          "phaseName": "chicken_mature",
+          "storageBase": {
+            "capacity": 40
+          },
+          "caravanStorageCapacity": 50
+        }
+      ]
+    },
+    {
+      "id": "cat",
+      "canBeInPen": true,
+      "canHaulAsPet": true,
+      "canAttackAsPet": true,
+      "lifePhases": [
+        {
+          "phaseName": "cat_young",
+          "storageBase": {
+            "capacity": 30
+          },
+          "caravanStorageCapacity": 30
+        },
+        {
+          "phaseName": "cat_mature",
+          "storageBase": {
+            "capacity": 50
+          },
+          "caravanStorageCapacity": 60
+        }
+      ]
+    },
+    {
+      "id": "dog",
+      "canBeInPen": true,
+      "lifePhases": [
+        {
+          "phaseName": "dog_young",
+          "storageBase": {
+            "capacity": 250
+          },
+          "caravanStorageCapacity": 300
+        },
+        {
+          "phaseName": "dog_mature",
+          "storageBase": {
+            "capacity": 450
+          },
+          "caravanStorageCapacity": 500
+        }
+      ]
+    },
+    {
+      "id": "bear",
+      "lifePhases": [
+        {
+          "phaseName": "bear_young",
+          "storageBase": {
+            "capacity": 650
+          },
+          "caravanStorageCapacity": 700
+        },
+        {
+          "phaseName": "bear_mature",
+          "storageBase": {
+            "capacity": 900
+          },
+          "caravanStorageCapacity": 1000
+        }
+      ]
+    }
+  ]
+}
