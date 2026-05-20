@@ -18,7 +18,15 @@
           },
           "caravanStorageCapacity": 900
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_large_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 0.5,
+        "max": 2
+      }
     },
     {
       "id": "hare",
@@ -39,7 +47,15 @@
           },
           "caravanStorageCapacity": 60
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_small_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2
+      }
     },
     {
       "id": "wolf",
@@ -58,7 +74,15 @@
           },
           "caravanStorageCapacity": 400
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_large_pet"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 0.5,
+        "max": 1.25
+      }
     },
     {
       "id": "boar",
@@ -78,7 +102,15 @@
           },
           "caravanStorageCapacity": 690
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_large_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      }
     },
     {
       "id": "pheasant",
@@ -99,7 +131,15 @@
           },
           "caravanStorageCapacity": 60
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_small_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2
+      }
     },
     {
       "id": "mallard",
@@ -120,7 +160,15 @@
           },
           "caravanStorageCapacity": 60
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_small_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2
+      }
     },
     {
       "id": "fox",
@@ -142,7 +190,15 @@
           },
           "caravanStorageCapacity": 170
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_cat_polecat_rat_pet"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2
+      }
     },
     {
       "id": "rat",
@@ -164,7 +220,12 @@
           },
           "caravanStorageCapacity": 50
         }
-      ]
+      ],
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2
+      }
     },
     {
       "id": "water_vole",
@@ -185,7 +246,12 @@
           },
           "caravanStorageCapacity": 50
         }
-      ]
+      ],
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2
+      }
     },
     {
       "id": "polecat",
@@ -207,7 +273,12 @@
           },
           "caravanStorageCapacity": 30
         }
-      ]
+      ],
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2
+      }
     },
     {
       "id": "cow",
@@ -227,7 +298,15 @@
           },
           "caravanStorageCapacity": 1300
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_large_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.2,
+      "haulEndEffectorDuration": {
+        "min": 2,
+        "max": 3
+      }
     },
     {
       "id": "goat",
@@ -247,7 +326,15 @@
           },
           "caravanStorageCapacity": 500
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_large_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 0.5,
+        "max": 1
+      }
     },
     {
       "id": "sheep",
@@ -268,7 +355,15 @@
           },
           "caravanStorageCapacity": 500
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_large_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2
+      }
     },
     {
       "id": "donkey",
@@ -288,7 +383,15 @@
           },
           "caravanStorageCapacity": 1800
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_large_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.2,
+      "haulEndEffectorDuration": {
+        "min": 1,
+        "max": 2
+      }
     },
     {
       "id": "chicken",
@@ -309,7 +412,15 @@
           },
           "caravanStorageCapacity": 50
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_small_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2
+      }
     },
     {
       "id": "cat",
@@ -331,7 +442,12 @@
           },
           "caravanStorageCapacity": 60
         }
-      ]
+      ],
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 1.5,
+        "max": 2
+      }
     },
     {
       "id": "dog",
@@ -351,7 +467,12 @@
           },
           "caravanStorageCapacity": 500
         }
-      ]
+      ],
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 0.25,
+        "max": 0.5
+      }
     },
     {
       "id": "bear",
@@ -370,7 +491,15 @@
           },
           "caravanStorageCapacity": 1000
         }
-      ]
+      ],
+      "walkableModelBlueprints": {
+        "pet": "animal_large_domestic"
+      },
+      "fireHaulEndEffectorChance": 0.4,
+      "haulEndEffectorDuration": {
+        "min": 0.5,
+        "max": 1.75
+      }
     }
   ]
 }
