@@ -1,0 +1,305 @@
+{
+  "repository": [
+    {
+      "id": "wheat_patch",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "Wheat patch",
+          "info": "It is a biennial grass of the grass family that is eaten as a staple food in most countries and is the most produced food crop in the world."
+        },
+        {
+          "languageName": "Japanese",
+          "name": "小麦",
+          "info": "イネ科の越年草で、主食とする国が最も多く、食用作物として世界で最も生産されています。"
+        }
+      ],
+      "waterDepthLevel": 1,
+      "loseHpOnWaterDepthLevel": [
+        0,
+        5,
+        7,
+        7
+      ],
+      "prefabIDs": [
+        "base_grass_patch"
+      ],
+      "variationLists": [
+        {
+          "name": "MeshVariations",
+          "isRandom": true,
+          "variations": [
+            {
+              "name": "mesh01",
+              "slots": [
+                {
+                  "id": "1",
+                  "slot": "baseMesh",
+                  "slotType": "Mesh",
+                  "value": "barley_patch_01"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MaterialParameters",
+          "variations": [
+            {
+              "name": "defaultMaterialParametars",
+              "slots": [
+                {
+                  "id": "1",
+                  "slot": "albedo",
+                  "slotType": "Texture",
+                  "value": "Barley_Texture"
+                },
+                {
+                  "id": "2",
+                  "slot": "albedo",
+                  "slotType": "ShaderParam",
+                  "shaderParam": {
+                    "variableName": "_YoungColor",
+                    "colorValue": "#90BC74"
+                  }
+                },
+                {
+                  "id": "3",
+                  "slot": "albedo",
+                  "slotType": "ShaderParam",
+                  "shaderParam": {
+                    "variableName": "_DryColor",
+                    "colorValue": "#FFFFFF"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "occlusionCullingMode": "CanBeOccludedOnly",
+      "minBotanicalSkill": 10,
+      "plantType": 0,
+      "yieldByDifficulty": true,
+      "layerShadowOffset": -1.5,
+      "layerHideOffset": -1,
+      "storableResources": [
+        {
+          "resourceId": "wheat",
+          "orders": 18
+        },
+        {
+          "resourceId": "hay",
+          "orders": 18
+        }
+      ],
+      "harvestPhase": 3,
+      "cutPhase": -1,
+      "harvestDuration": 10,
+      "miningTool": "sickle_item",
+      "miningDuration": 10,
+      "phaseSkipTemperature": -60,
+      "cultivable": true,
+      "canHaveBlight": true,
+      "sowTime": 8,
+      "growsOn": [
+        "Dirt",
+        "Grass",
+        "WetlandDirt"
+      ],
+      "neighborCheck": 1,
+      "placeAnywhereChance": 0,
+      "canSpawnOnZeroCount": true,
+      "newPlantTemperatureLimit": 5,
+      "newPlantsPerDay": 0,
+      "pathfindingPenalty": 2000,
+      "walkSpeedMultiplier": 0.75,
+      "nutritionPerHp": 2,
+      "noLightGrowSpeed": 0.25,
+      "stuntedSunlightThreshold": 0.7,
+      "stuntedAppearance": {
+        "scale": 0.9
+      },
+      "stuntedYieldMultiplier": 0.3,
+      "soundWalkableMaterialCategory": 8,
+      "spawnPileWhenDestroyedByFire": "ash",
+      "spawnPileAmountWhenDestroyedByFire": 1,
+      "lifePhases": [
+        {
+          "phaseName": "wheatStemYoung",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_young"
+            }
+          ],
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.4
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 0
+              }
+            ]
+          },
+          "durationDays": 2,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            },
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -4,
+          "temperatureDeath": -15,
+          "nextPhaseIndex": 1,
+          "deathPhaseIndex": -1,
+          "beautyInput": 2,
+          "temperatureOverheat": 30,
+          "deathPhaseIndexFire": -1,
+          "flammability": 0.4
+        },
+        {
+          "phaseName": "wheatStemGrown01",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_growing"
+            }
+          ],
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.55
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 0.1
+              }
+            ]
+          },
+          "durationDays": 2,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            },
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -4,
+          "temperatureDeath": -7,
+          "nextPhaseIndex": 2,
+          "deathPhaseIndex": -1,
+          "beautyInput": 2,
+          "temperatureOverheat": 35,
+          "turningPhase": true,
+          "deathPhaseIndexFire": -1,
+          "flammability": 0.6
+        },
+        {
+          "phaseName": "wheatStemGrown02",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_ripening"
+            }
+          ],
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 0.75
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 0.2
+              }
+            ]
+          },
+          "durationDays": 3,
+          "baseHealth": 30,
+          "resourcesRange": [
+            {
+              "min": 0,
+              "max": 0
+            },
+            {
+              "min": 0,
+              "max": 0
+            }
+          ],
+          "temperatureFreeze": -4,
+          "temperatureDeath": -7,
+          "nextPhaseIndex": 3,
+          "deathPhaseIndex": -1,
+          "beautyInput": 2,
+          "temperatureOverheat": 35,
+          "turningPhase": false,
+          "useSunLight": false,
+          "deathPhaseIndexFire": -1,
+          "flammability": 1
+        },
+        {
+          "phaseName": "wheatStemMature",
+          "locKeys": [
+            {
+              "languageName": "English",
+              "name": "resource_phase_ripe"
+            }
+          ],
+          "appearance": {
+            "scale": 1,
+            "shaderParameters": [
+              {
+                "parameterId": "_GrowAmount",
+                "parameterValue": 1
+              },
+              {
+                "parameterId": "_DryAmount",
+                "parameterValue": 1
+              }
+            ]
+          },
+          "durationDays": 12,
+          "baseHealth": 45,
+          "resourcesRange": [
+            {
+              "min": 8,
+              "max": 8
+            },
+            {
+              "min": 25,
+              "max": 25
+            }
+          ],
+          "temperatureFreeze": -60,
+          "temperatureDeath": -60,
+          "nextPhaseIndex": -1,
+          "deathPhaseIndex": -1,
+          "beautyInput": 2,
+          "temperatureOverheat": 40,
+          "turningPhase": false,
+          "useSunLight": false,
+          "deathPhaseIndexFire": -1,
+          "flammability": 2.5,
+          "isTastyForBees": false
+        }
+      ]
+    }
+  ]
+}

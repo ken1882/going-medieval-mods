@@ -1,174 +1,157 @@
 {
-	"repository": [
-		{
-			"id": "FineClothing",
-			"effects#APPEND": [
-				{
-					"type": "MoodModify",
-					"parameters": [
-						{
-							"key": "BaseValue",
-							"value": "10"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "GlobalWorkSpeed"
-						},
-						{
-							"key": "Multiplier",
-							"value": "2"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "MotorFunction"
-						},
-						{
-							"key": "Multiplier",
-							"value": "2"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "MovementSpeed"
-						},
-						{
-							"key": "Multiplier",
-							"value": "1.2"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "SleepRecoverSpeed"
-						},
-						{
-							"key": "Multiplier",
-							"value": "2"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "SleepDepletionSpeed"
-						},
-						{
-							"key": "Multiplier",
-							"value": "0.5"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "RareChance"
-						},
-						{
-							"key": "Multiplier",
-							"value": "2"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "Clumsiness"
-						},
-						{
-							"key": "Multiplier",
-							"value": "0.5"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "TempColdTresh"
-						},
-						{
-							"key": "Multiplier",
-							"value": "1.2"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "TempHotTresh"
-						},
-						{
-							"key": "Multiplier",
-							"value": "1.2"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "SocialCompatibilityPositive"
-						},
-						{
-							"key": "Multiplier",
-							"value": "1.2"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "WoundRegen"
-						},
-						{
-							"key": "Multiplier",
-							"value": "1.2"
-						}
-					]
-				},
-				{
-					"type": "AttributeModify",
-					"parameters": [
-						{
-							"key": "Attribute",
-							"value": "HealthRecovery"
-						},
-						{
-							"key": "Multiplier",
-							"value": "1.2"
-						}
-					]
-				}
-			]
-		}
-	]
+  "repository": [{
+    "id": "FineClothing",
+    "effects#APPEND": [{
+        "type": "MoodModify",
+        "parameters": [{
+          "key": "BaseValue",
+          "value": "10"
+        }]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "GlobalWorkSpeed"
+          },
+          {
+            "key": "Multiplier",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "MotorFunction"
+          },
+          {
+            "key": "Multiplier",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "MovementSpeed"
+          },
+          {
+            "key": "Multiplier",
+            "value": "1.2"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "SleepRecoverSpeed"
+          },
+          {
+            "key": "Multiplier",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "SleepDepletionSpeed"
+          },
+          {
+            "key": "Multiplier",
+            "value": "0.5"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "RareChance"
+          },
+          {
+            "key": "Multiplier",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "Clumsiness"
+          },
+          {
+            "key": "Multiplier",
+            "value": "0.5"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "TempColdTresh"
+          },
+          {
+            "key": "Multiplier",
+            "value": "1.2"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "TempHotTresh"
+          },
+          {
+            "key": "Multiplier",
+            "value": "1.2"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "SocialCompatibilityPositive"
+          },
+          {
+            "key": "Multiplier",
+            "value": "1.2"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "WoundRegen"
+          },
+          {
+            "key": "Multiplier",
+            "value": "1.2"
+          }
+        ]
+      },
+      {
+        "type": "AttributeModify",
+        "parameters": [{
+            "key": "Attribute",
+            "value": "HealthRecovery"
+          },
+          {
+            "key": "Multiplier",
+            "value": "1.2"
+          }
+        ]
+      }
+    ]
+  }]
 }

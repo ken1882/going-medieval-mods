@@ -1,16 +1,13 @@
-{
-  "repository": [
-    {
+﻿{
+  "repository": [{
       "id": "dagger",
       "hitpoints": 50,
       "beautyInput": 1,
       "wealthPoints": 15,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 1
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 1
+      }]
     },
     {
       "id": "short_sword",
@@ -20,48 +17,40 @@
       "id": "falchion",
       "beautyInput": 1,
       "beautyInputOnShelf": 15,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 4
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 4
+      }]
     },
     {
       "id": "knightly_sword",
       "beautyInput": 2,
       "beautyInputOnShelf": 25,
       "wealthPoints": 60,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 4
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 4
+      }]
     },
     {
       "id": "longsword",
       "weight": 2,
       "hitpoints": 250,
-      "beautyInput":3,
+      "beautyInput": 3,
       "wealthPoints": 60,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 7
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 7
+      }]
     },
     {
       "id": "greatsword",
       "beautyInput": 4,
       "wealthPoints": 75,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 10
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 10
+      }]
     },
     {
       "id": "mace",
@@ -75,12 +64,10 @@
       "hitpoints": 200,
       "beautyInput": 1,
       "beautyInputOnShelf": 15,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 6
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 6
+      }]
     },
     {
       "id": "two_handed_flanged_mace",
@@ -89,12 +76,10 @@
       "beautyInput": 1,
       "beautyInputOnShelf": 15,
       "wealthPoints": 55,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 6
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 6
+      }]
     },
     {
       "id": "military_pick",
@@ -115,12 +100,10 @@
       "weight": 3,
       "beautyInput": 2,
       "beautyInputOnShelf": 20,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 8
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 8
+      }]
     },
     {
       "id": "warhammer",
@@ -128,12 +111,10 @@
       "beautyInput": 1,
       "beautyInputOnShelf": 15,
       "wealthPoints": 50,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 4
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 4
+      }]
     },
     {
       "id": "two_handed_warhammer",
@@ -142,12 +123,10 @@
       "beautyInput": 2,
       "beautyInputOnShelf": 20,
       "wealthPoints": 55,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 6
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 6
+      }]
     },
     {
       "id": "berdiche",
@@ -156,12 +135,10 @@
       "beautyInput": 2,
       "beautyInputOnShelf": 20,
       "wealthPoints": 50,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 8
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 8
+      }]
     },
     {
       "id": "billhook",
@@ -169,12 +146,10 @@
       "beautyInput": 1,
       "beautyInputOnShelf": 10,
       "wealthPoints": 40,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 6
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 6
+      }]
     },
     {
       "id": "staff",
@@ -182,12 +157,10 @@
       "hitpoints": 300,
       "beautyInput": 1,
       "beautyInputOnShelf": 5,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 6
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 6
+      }]
     },
     {
       "id": "cudgel",
@@ -196,24 +169,20 @@
       "beautyInput": 1,
       "beautyInputOnShelf": 1,
       "wealthPoints": 15,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 4
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 4
+      }]
     },
     {
       "id": "bludgeon",
       "weight": 2.5,
       "hitpoints": 175,
       "beautyInput": 1,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 5
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 5
+      }]
     },
     {
       "id": "spear",
@@ -221,20 +190,17 @@
       "hitpoints": 150,
       "beautyInput": 1,
       "wealthPoints": 40,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 6
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 6
+      }]
     },
     {
       "id": "reinforced_spear",
       "weight": 3,
       "beautyInput": 1,
       "wealthPoints": 50,
-      "dismantledProducts": [
-        {
+      "dismantledProducts": [{
           "key": "<materialOverride>",
           "value": 6
         },
@@ -250,8 +216,7 @@
       "hitpoints": 200,
       "beautyInput": 1,
       "wealthPoints": 45,
-      "dismantledProducts": [
-        {
+      "dismantledProducts": [{
           "key": "<materialOverride>",
           "value": 6
         },
@@ -267,12 +232,10 @@
       "hitpoints": 150,
       "beautyInput": 1,
       "wealthPoints": 25,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 5
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 5
+      }]
     },
     {
       "id": "reinforced_flail",
@@ -281,8 +244,7 @@
       "beautyInput": 1,
       "beautyInputOnShelf": 4,
       "wealthPoints": 40,
-      "dismantledProducts": [
-        {
+      "dismantledProducts": [{
           "key": "<materialOverride>",
           "value": 6
         },
@@ -298,8 +260,7 @@
       "beautyInput": 1,
       "beautyInputOnShelf": 5,
       "wealthPoints": 50,
-      "dismantledProducts": [
-        {
+      "dismantledProducts": [{
           "key": "<materialOverride>",
           "value": 7
         },
@@ -317,63 +278,52 @@
       ],
       "iconPath": "short_bow",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_short_bow",
-          "info": "equipment_info_short_bow",
-          "tooltipLines": [
-            "pile_tooltip_info_ArmourPenetrationHigh",
-            "pile_tooltip_info_BonusHigherGround",
-            "pile_tooltip_info_ArmorDamageLow"
-          ]
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_short_bow",
+        "info": "equipment_info_short_bow",
+        "tooltipLines": [
+          "pile_tooltip_info_ArmourPenetrationHigh",
+          "pile_tooltip_info_BonusHigherGround",
+          "pile_tooltip_info_ArmorDamageLow"
+        ]
+      }],
       "prefabPileID": "base_equipment_pile",
-      "variationLists": [
-        {
+      "variationLists": [{
           "name": "QualityVariations",
-          "variations": [
-            {
-              "name": "quality01",
-              "slots": [
-                {
-                  "id": "1",
-                  "slot": "baseMesh",
-                  "slotType": "Mesh",
-                  "value": "short_bow"
-                }
-              ]
-            }
-          ]
+          "variations": [{
+            "name": "quality01",
+            "slots": [{
+              "id": "1",
+              "slot": "baseMesh",
+              "slotType": "Mesh",
+              "value": "short_bow"
+            }]
+          }]
         },
         {
           "name": "MaterialParameters",
-          "variations": [
-            {
-              "name": "defaultMaterialParametars",
-              "slots": [
-                {
-                  "id": "1",
-                  "slot": "albedo",
-                  "slotType": "Texture",
-                  "value": "bow_diffuse"
-                },
-                {
-                  "id": "2",
-                  "slot": "material_map",
-                  "slotType": "Texture",
-                  "value": "bow_material"
-                }
-              ]
-            }
-          ]
+          "variations": [{
+            "name": "defaultMaterialParametars",
+            "slots": [{
+                "id": "1",
+                "slot": "albedo",
+                "slotType": "Texture",
+                "value": "bow_diffuse"
+              },
+              {
+                "id": "2",
+                "slot": "material_map",
+                "slotType": "Texture",
+                "value": "bow_material"
+              }
+            ]
+          }]
         }
       ],
       "equippedPrefabID": "base_skinned_bow",
       "skinnedMeshID": "short_bow",
-      "transformSettingsArray": [
-        {
+      "transformSettingsArray": [{
           "id": "PileTransformSettings",
           "positionOffset": {
             "x": -0.06,
@@ -430,12 +380,10 @@
         "almanac_group_name_Warfare"
       ],
       "itemMaterialCategory": 3,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 4
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 4
+      }]
     },
     {
       "id": "war_bow",
@@ -444,63 +392,52 @@
       ],
       "iconPath": "war_bow",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_war_bow",
-          "info": "equipment_info_war_bow",
-          "tooltipLines": [
-            "pile_tooltip_info_ArmourPenetrationHigh",
-            "pile_tooltip_info_BonusHigherGround",
-            "pile_tooltip_info_ArmorDamageLow"
-          ]
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_war_bow",
+        "info": "equipment_info_war_bow",
+        "tooltipLines": [
+          "pile_tooltip_info_ArmourPenetrationHigh",
+          "pile_tooltip_info_BonusHigherGround",
+          "pile_tooltip_info_ArmorDamageLow"
+        ]
+      }],
       "prefabPileID": "base_equipment_pile",
-      "variationLists": [
-        {
+      "variationLists": [{
           "name": "QualityVariations",
-          "variations": [
-            {
-              "name": "quality01",
-              "slots": [
-                {
-                  "id": "1",
-                  "slot": "baseMesh",
-                  "slotType": "Mesh",
-                  "value": "war_bow"
-                }
-              ]
-            }
-          ]
+          "variations": [{
+            "name": "quality01",
+            "slots": [{
+              "id": "1",
+              "slot": "baseMesh",
+              "slotType": "Mesh",
+              "value": "war_bow"
+            }]
+          }]
         },
         {
           "name": "MaterialParameters",
-          "variations": [
-            {
-              "name": "defaultMaterialParametars",
-              "slots": [
-                {
-                  "id": "1",
-                  "slot": "albedo",
-                  "slotType": "Texture",
-                  "value": "bow_diffuse"
-                },
-                {
-                  "id": "2",
-                  "slot": "material_map",
-                  "slotType": "Texture",
-                  "value": "bow_material"
-                }
-              ]
-            }
-          ]
+          "variations": [{
+            "name": "defaultMaterialParametars",
+            "slots": [{
+                "id": "1",
+                "slot": "albedo",
+                "slotType": "Texture",
+                "value": "bow_diffuse"
+              },
+              {
+                "id": "2",
+                "slot": "material_map",
+                "slotType": "Texture",
+                "value": "bow_material"
+              }
+            ]
+          }]
         }
       ],
       "equippedPrefabID": "base_skinned_bow",
       "skinnedMeshID": "war_bow",
-      "transformSettingsArray": [
-        {
+      "transformSettingsArray": [{
           "id": "PileTransformSettings",
           "positionOffset": {
             "x": -0.06,
@@ -557,12 +494,10 @@
         "almanac_group_name_Warfare"
       ],
       "itemMaterialCategory": 3,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 6
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 6
+      }]
     },
     {
       "id": "curved_bow",
@@ -571,63 +506,52 @@
       ],
       "iconPath": "curved_bow",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_curved_bow",
-          "info": "equipment_info_curved_bow",
-          "tooltipLines": [
-            "pile_tooltip_info_ArmourPenetrationHigh",
-            "pile_tooltip_info_BonusHigherGround",
-            "pile_tooltip_info_ArmorDamageLow"
-          ]
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_curved_bow",
+        "info": "equipment_info_curved_bow",
+        "tooltipLines": [
+          "pile_tooltip_info_ArmourPenetrationHigh",
+          "pile_tooltip_info_BonusHigherGround",
+          "pile_tooltip_info_ArmorDamageLow"
+        ]
+      }],
       "prefabPileID": "base_equipment_pile",
-      "variationLists": [
-        {
+      "variationLists": [{
           "name": "QualityVariations",
-          "variations": [
-            {
-              "name": "quality01",
-              "slots": [
-                {
-                  "id": "1",
-                  "slot": "baseMesh",
-                  "slotType": "Mesh",
-                  "value": "masterwork_bow"
-                }
-              ]
-            }
-          ]
+          "variations": [{
+            "name": "quality01",
+            "slots": [{
+              "id": "1",
+              "slot": "baseMesh",
+              "slotType": "Mesh",
+              "value": "masterwork_bow"
+            }]
+          }]
         },
         {
           "name": "MaterialParameters",
-          "variations": [
-            {
-              "name": "defaultMaterialParametars",
-              "slots": [
-                {
-                  "id": "1",
-                  "slot": "albedo",
-                  "slotType": "Texture",
-                  "value": "bow_diffuse"
-                },
-                {
-                  "id": "2",
-                  "slot": "material_map",
-                  "slotType": "Texture",
-                  "value": "bow_material"
-                }
-              ]
-            }
-          ]
+          "variations": [{
+            "name": "defaultMaterialParametars",
+            "slots": [{
+                "id": "1",
+                "slot": "albedo",
+                "slotType": "Texture",
+                "value": "bow_diffuse"
+              },
+              {
+                "id": "2",
+                "slot": "material_map",
+                "slotType": "Texture",
+                "value": "bow_material"
+              }
+            ]
+          }]
         }
       ],
       "equippedPrefabID": "base_skinned_bow",
       "skinnedMeshID": "masterwork_bow",
-      "transformSettingsArray": [
-        {
+      "transformSettingsArray": [{
           "id": "PileTransformSettings",
           "positionOffset": {
             "x": -0.06,
@@ -684,12 +608,10 @@
         "almanac_group_name_Warfare"
       ],
       "itemMaterialCategory": 3,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 9
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 9
+      }]
     },
     {
       "id": "long_bow",
@@ -698,63 +620,52 @@
       ],
       "iconPath": "long_bow",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_long_bow",
-          "info": "equipment_info_long_bow",
-          "tooltipLines": [
-            "pile_tooltip_info_ArmourPenetrationHigh",
-            "pile_tooltip_info_BonusHigherGround",
-            "pile_tooltip_info_ArmorDamageLow"
-          ]
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_long_bow",
+        "info": "equipment_info_long_bow",
+        "tooltipLines": [
+          "pile_tooltip_info_ArmourPenetrationHigh",
+          "pile_tooltip_info_BonusHigherGround",
+          "pile_tooltip_info_ArmorDamageLow"
+        ]
+      }],
       "prefabPileID": "base_equipment_pile",
-      "variationLists": [
-        {
+      "variationLists": [{
           "name": "QualityVariations",
-          "variations": [
-            {
-              "name": "quality01",
-              "slots": [
-                {
-                  "id": "1",
-                  "slot": "baseMesh",
-                  "slotType": "Mesh",
-                  "value": "long_bow"
-                }
-              ]
-            }
-          ]
+          "variations": [{
+            "name": "quality01",
+            "slots": [{
+              "id": "1",
+              "slot": "baseMesh",
+              "slotType": "Mesh",
+              "value": "long_bow"
+            }]
+          }]
         },
         {
           "name": "MaterialParameters",
-          "variations": [
-            {
-              "name": "defaultMaterialParametars",
-              "slots": [
-                {
-                  "id": "1",
-                  "slot": "albedo",
-                  "slotType": "Texture",
-                  "value": "bow_diffuse"
-                },
-                {
-                  "id": "2",
-                  "slot": "material_map",
-                  "slotType": "Texture",
-                  "value": "bow_material"
-                }
-              ]
-            }
-          ]
+          "variations": [{
+            "name": "defaultMaterialParametars",
+            "slots": [{
+                "id": "1",
+                "slot": "albedo",
+                "slotType": "Texture",
+                "value": "bow_diffuse"
+              },
+              {
+                "id": "2",
+                "slot": "material_map",
+                "slotType": "Texture",
+                "value": "bow_material"
+              }
+            ]
+          }]
         }
       ],
       "equippedPrefabID": "base_skinned_bow",
       "skinnedMeshID": "long_bow",
-      "transformSettingsArray": [
-        {
+      "transformSettingsArray": [{
           "id": "PileTransformSettings",
           "positionOffset": {
             "x": -0.06,
@@ -811,17 +722,14 @@
         "almanac_group_name_Warfare"
       ],
       "itemMaterialCategory": 3,
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 8
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 8
+      }]
     },
     {
       "id": "light_crossbow",
-      "dismantledProducts": [
-        {
+      "dismantledProducts": [{
           "key": "<materialOverride>",
           "value": 7
         },
@@ -833,8 +741,7 @@
     },
     {
       "id": "crossbow",
-      "dismantledProducts": [
-        {
+      "dismantledProducts": [{
           "key": "<materialOverride>",
           "value": 9
         },
@@ -846,8 +753,7 @@
     },
     {
       "id": "heavy_crossbow",
-      "dismantledProducts": [
-        {
+      "dismantledProducts": [{
           "key": "<materialOverride>",
           "value": 9
         },
@@ -859,39 +765,31 @@
     },
     {
       "id": "buckler_shield",
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 6
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 6
+      }]
     },
     {
       "id": "kite_shield",
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 9
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 9
+      }]
     },
     {
       "id": "pavise_shield",
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 6
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 6
+      }]
     },
     {
       "id": "heater_shield",
-      "dismantledProducts": [
-        {
-          "key": "<materialOverride>",
-          "value": 8
-        }
-      ]
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 8
+      }]
     },
     {
       "id": "tower_shield",
@@ -901,12 +799,496 @@
         "gold",
         "silver"
       ],
-      "dismantledProducts": [
+      "dismantledProducts": [{
+        "key": "<materialOverride>",
+        "value": 10
+      }]
+    },
+    {
+      "id": "aged_cheese",
+      "stackingLimit": 500,
+      "weight": 0.05
+    },
+    {
+      "id": "aged_sake",
+      "stackingLimit": 250,
+      "weight": 0.05
+    },
+    {
+      "id": "animal_meet_feed",
+      "stackingLimit": 100,
+      "weight": 0.1
+    },
+    {
+      "id": "blue_dyed_fabric",
+      "stackingLimit": 1000,
+      "weight": 0.1
+    },
+    {
+      "id": "bone_broth",
+      "stackingLimit": 500,
+      "weight": 0.05
+    },
+    {
+      "id": "fermenting_apple_juice",
+      "stackingLimit": 250,
+      "weight": 0.05
+    },
+    {
+      "id": "fine_aged_cheese",
+      "stackingLimit": 500,
+      "weight": 0.05
+    },
+    {
+      "id": "green_dyed_fabric",
+      "stackingLimit": 1000,
+      "weight": 0.1
+    },
+    {
+      "id": "human_bones",
+      "stackingLimit": 1000,
+      "weight": 0.1
+    },
+    {
+      "id": "jade",
+      "stackingLimit": 1000,
+      "weight": 0.1
+    },
+    {
+      "id": "jade_ingot",
+      "stackingLimit": 500,
+      "weight": 0.1
+    },
+    {
+      "id": "lamb_shank",
+      "stackingLimit": 100,
+      "weight": 0.07
+    },
+    {
+      "id": "peat",
+      "stackingLimit": 2000,
+      "weight": 0.1
+    },
+    {
+      "id": "peat_brick",
+      "stackingLimit": 1000,
+      "weight": 0.05
+    },
+    {
+      "id": "purple_dye",
+      "stackingLimit": 100,
+      "weight": 0.03
+    },
+    {
+      "id": "purple_dyed_fabric",
+      "stackingLimit": 1000,
+      "weight": 0.1
+    },
+    {
+      "id": "red_dyed_fabric",
+      "stackingLimit": 1000,
+      "weight": 0.1
+    },
+    {
+      "id": "rice",
+      "stackingLimit": 500,
+      "weight": 0.05
+    },
+    {
+      "id": "rice_seedling",
+      "stackingLimit": 1000,
+      "weight": 0.05
+    },
+    {
+      "id": "rice_washed",
+      "stackingLimit": 500,
+      "weight": 0.05
+    },
+    {
+      "id": "roasted_hog",
+      "stackingLimit": 100,
+      "weight": 0.07
+    },
+    {
+      "id": "sake",
+      "stackingLimit": 250,
+      "weight": 0.05
+    },
+    {
+      "id": "smoked_chicken",
+      "stackingLimit": 100,
+      "weight": 0.07
+    },
+    {
+      "id": "smoked_Mallard",
+      "stackingLimit": 100,
+      "weight": 0.07
+    },
+    {
+      "id": "smoked_pheasant",
+      "stackingLimit": 100,
+      "weight": 0.07
+    },
+    {
+      "id": "stack_clay",
+      "stackingLimit": 100,
+      "weight": 10
+    },
+    {
+      "id": "stack_coal",
+      "stackingLimit": 100,
+      "weight": 5
+    },
+    {
+      "id": "stack_dirt",
+      "stackingLimit": 100,
+      "weight": 10
+    },
+    {
+      "id": "stack_dungbrick",
+      "stackingLimit": 50,
+      "weight": 10
+    },
+    {
+      "id": "stack_gold",
+      "stackingLimit": 250,
+      "weight": 1.5
+    },
+    {
+      "id": "stack_gold_ingot",
+      "stackingLimit": 30,
+      "weight": 10
+    },
+    {
+      "id": "stack_hay",
+      "stackingLimit": 100,
+      "weight": 5
+    },
+    {
+      "id": "stack_iron",
+      "stackingLimit": 100,
+      "weight": 10
+    },
+    {
+      "id": "stack_iron_ingot",
+      "stackingLimit": 30,
+      "weight": 10
+    },
+    {
+      "id": "stack_leather",
+      "stackingLimit": 50,
+      "weight": 10
+    },
+    {
+      "id": "stack_limestone",
+      "stackingLimit": 100,
+      "weight": 10
+    },
+    {
+      "id": "stack_linen_cloth",
+      "stackingLimit": 50,
+      "weight": 10
+    },
+    {
+      "id": "stack_quicklime",
+      "stackingLimit": 100,
+      "weight": 2
+    },
+    {
+      "id": "stack_salt",
+      "stackingLimit": 100,
+      "weight": 1
+    },
+    {
+      "id": "stack_saltpeter",
+      "stackingLimit": 100,
+      "weight": 2
+    },
+    {
+      "id": "stack_silver",
+      "stackingLimit": 250,
+      "weight": 1
+    },
+    {
+      "id": "stack_silver_ingot",
+      "stackingLimit": 30,
+      "weight": 10
+    },
+    {
+      "id": "stack_steel_ingot",
+      "stackingLimit": 30,
+      "weight": 10
+    },
+    {
+      "id": "stack_sticks",
+      "stackingLimit": 100,
+      "weight": 3
+    },
+    {
+      "id": "stack_tallow",
+      "stackingLimit": 50,
+      "weight": 5
+    },
+    {
+      "id": "stack_wax",
+      "stackingLimit": 50,
+      "weight": 5
+    },
+    {
+      "id": "stack_wood",
+      "stackingLimit": 100,
+      "weight": 5
+    },
+    {
+      "id": "stack_wool_cloth",
+      "stackingLimit": 50,
+      "weight": 10
+    },
+    {
+      "id": "wheat",
+      "iconPath": "barley",
+      "locKeys": [{
+          "languageName": "English",
+          "name": "wheat",
+          "info": "It is a biennial grass of the grass family that is eaten as a staple food in most countries and is the most produced food crop in the world."
+        },
         {
-          "key": "<materialOverride>",
-          "value": 10
+          "languageName": "Japanese",
+          "name": "小麦",
+          "info": "イネ科の越年草で、主食とする国が最も多く、食用作物として世界で最も生産されています。"
         }
-      ]
+      ],
+      "prefabPileID": "base_resource_pile",
+      "variationLists": [{
+          "name": "CountVariations",
+          "variations": [{
+              "name": "stackSize01",
+              "slots": [{
+                "id": "1",
+                "slot": "baseMesh",
+                "slotType": "Mesh",
+                "value": "barley_pile_size01"
+              }]
+            },
+            {
+              "name": "stackSize02",
+              "slots": [{
+                "id": "1",
+                "slot": "baseMesh",
+                "slotType": "Mesh",
+                "value": "barley_pile_size02"
+              }]
+            },
+            {
+              "name": "stackSize03",
+              "slots": [{
+                "id": "1",
+                "slot": "baseMesh",
+                "slotType": "Mesh",
+                "value": "barley_pile_size03"
+              }]
+            }
+          ]
+        },
+        {
+          "name": "MaterialParameters",
+          "variations": [{
+            "name": "defaultMaterialParameters",
+            "slots": [{
+                "id": "1",
+                "slot": "albedo",
+                "slotType": "Texture",
+                "value": "Barley_Texture"
+              },
+              {
+                "id": "2",
+                "slot": "reflection",
+                "slotType": "Texture",
+                "value": ""
+              },
+              {
+                "id": "3",
+                "slot": "reflection",
+                "slotType": "ShaderParam",
+                "shaderParam": {
+                  "variableName": "_BaseColorMultiply",
+                  "colorValue": "#FFFFFF"
+                }
+              },
+              {
+                "id": "4",
+                "slot": "reflection",
+                "slotType": "ShaderParam",
+                "shaderParam": {
+                  "variableName": "_Metallic",
+                  "floatValue": "1"
+                }
+              },
+              {
+                "id": "5",
+                "slot": "reflection",
+                "slotType": "ShaderParam",
+                "shaderParam": {
+                  "variableName": "_Smoothness",
+                  "floatValue": "1"
+                }
+              }
+            ]
+          }]
+        }
+      ],
+      "stackingLimit": 500,
+      "weight": 0.05,
+      "haulPriority": 8,
+      "hitpoints": 100,
+      "beautyInput": -4,
+      "beautyInputOnShelf": 5,
+      "flammability": 1.5,
+      "decomposeModifiersId": "dry_food_decay",
+      "rotModifiersId": "dry_food_decay",
+      "rottenId": "vegetable_rot",
+      "wealthPoints": 1.3,
+      "category": 67113129,
+      "sortingGroup": "FoodRaw",
+      "almanacTags": [
+        "resource_category_name_CtgCookingMat",
+        "almanac_group_name_Food",
+        "almanac_group_name_Raw",
+        "resource_category_name_CtgAlcoholMat"
+      ],
+      "ingredientFlag": 4,
+      "onUseEffects": [
+        "AteRawMeal",
+        "StomachFoodInstaDmgVeryLow",
+        "AteRawMealNegativePerkEffector"
+      ],
+      "nutrition": 15,
+      "razzleDazzle": 0
+    },
+    {
+      "id": "yellow_dyed_fabric",
+      "stackingLimit": 1000,
+      "weight": 0.1
+    },
+    {
+      "id": "stew",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "stewed_fruit",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "cooked_grain",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "roasted_mushrooms",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "roasted_meat",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "roasted_fish",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "eel_meal",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "egg_boiled",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "milk_meal",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "honey_biscuits",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "cheese_meal",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "fruit_pie",
+      "groupIdentifier": "fruit_pie"
+    },
+    {
+      "id": "meat_pie",
+      "groupIdentifier": "meat_pie"
+    },
+    {
+      "id": "buiskets",
+      "groupIdentifier": "buiskets"
+    },
+    {
+      "id": "egg_meal",
+      "groupIdentifier": "egg_meal"
+    },
+    {
+      "id": "bread",
+      "groupIdentifier": "bread"
+    },
+    {
+      "id": "lavish_vegetable_stew",
+      "groupIdentifier": "lavish_vegetable_stew"
+    },
+    {
+      "id": "lavish_roasted_meat",
+      "groupIdentifier": "lavish_roasted_meat"
+    },
+    {
+      "id": "lavish_roasted_fish",
+      "groupIdentifier": "lavish_roasted_fish"
+    },
+    {
+      "id": "sauteed_fruits",
+      "groupIdentifier": "sauteed_fruits"
+    },
+    {
+      "id": "sauteed_fruits_vegetables",
+      "groupIdentifier": "sauteed_fruits_vegetables"
+    },
+    {
+      "id": "honey_glazed_fruit",
+      "groupIdentifier": "honey_glazed_fruit"
+    },
+    {
+      "id": "honey_glazed_vegetables",
+      "groupIdentifier": "honey_glazed_vegetables"
+    },
+    {
+      "id": "fruit_puding",
+      "groupIdentifier": "fruit_puding"
+    },
+    {
+      "id": "fruit_cheese",
+      "groupIdentifier": "fruit_cheese"
+    },
+    {
+      "id": "fish_dish",
+      "groupIdentifier": "fish_dish"
+    },
+    {
+      "id": "apple_pie",
+      "groupIdentifier": "apple_pie"
+    },
+    {
+      "id": "redcurrant_pie",
+      "groupIdentifier": "redcurrant_pie"
+    },
+    {
+      "id": "smoked_meat",
+      "groupIdentifier": ""
+    },
+    {
+      "id": "smoked_fish",
+      "groupIdentifier": ""
     }
   ]
 }

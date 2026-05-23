@@ -1,9 +1,7 @@
-{
-  "repository": [
-    {
+﻿{
+  "repository": [{
       "id": "dagger",
-      "recipe": [
-        {
+      "recipe": [{
           "key": 2048,
           "value": 5
         },
@@ -12,11 +10,9 @@
           "value": 5
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_dagger",
               "amount": 1
             },
@@ -28,8 +24,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_dagger",
               "amount": 1
             },
@@ -41,8 +36,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_dagger",
               "amount": 1
             },
@@ -54,8 +48,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_dagger",
               "amount": 1
             },
@@ -70,68 +63,53 @@
     {
       "id": "short_sword",
       "jobType": 256,
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 10
-        }
-      ]
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 10
+      }]
     },
     {
       "id": "falchion",
-      "requiredSkills#REMOVE": [
-        {
-          "key": "Carpentry",
-          "value": 0
-        }
-      ],
-      "requiredSkills#APPEND": [
-        {
-          "key": "Smithing",
-          "value": 15
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills#REMOVE": [{
+        "key": "Carpentry",
+        "value": 0
+      }],
+      "requiredSkills#APPEND": [{
+        "key": "Smithing",
+        "value": 15
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingMetalWeaponMed",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 550,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 400
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 400
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_falchion",
               "amount": 1
             },
@@ -143,8 +121,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_falchion",
               "amount": 1
             },
@@ -156,8 +133,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_falchion",
               "amount": 1
             },
@@ -169,8 +145,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_falchion",
               "amount": 1
             },
@@ -184,17 +159,13 @@
     },
     {
       "id": "knightly_sword",
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 20
-        }
-      ],
-      "customProducts": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 20
+      }],
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_knightly_sword",
               "amount": 1
             },
@@ -206,8 +177,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_knightly_sword",
               "amount": 1
             },
@@ -219,8 +189,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_knightly_sword",
               "amount": 1
             },
@@ -232,8 +201,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_knightly_sword",
               "amount": 1
             },
@@ -247,17 +215,13 @@
     },
     {
       "id": "longsword",
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 25
-        }
-      ],
-      "customProducts": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 25
+      }],
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_longsword",
               "amount": 1
             },
@@ -269,8 +233,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_longsword",
               "amount": 1
             },
@@ -282,8 +245,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_longsword",
               "amount": 1
             },
@@ -295,8 +257,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_longsword",
               "amount": 1
             },
@@ -310,53 +271,42 @@
     },
     {
       "id": "greatsword",
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 30
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 30
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingMetalWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 900,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 600
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 600
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_greatsword",
               "amount": 1
             },
@@ -368,8 +318,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_greatsword",
               "amount": 1
             },
@@ -381,8 +330,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_greatsword",
               "amount": 1
             },
@@ -394,8 +342,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_greatsword",
               "amount": 1
             },
@@ -409,14 +356,11 @@
     },
     {
       "id": "mace",
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 10
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 10
+      }],
+      "recipe": [{
           "key": 2048,
           "value": 15
         },
@@ -432,14 +376,11 @@
     },
     {
       "id": "two_handed_mace",
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 20
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 20
+      }],
+      "recipe": [{
           "key": 2048,
           "value": 30
         },
@@ -452,36 +393,29 @@
           "value": 20
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingMetalWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 800,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 500
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 500
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -491,20 +425,15 @@
     },
     {
       "id": "two_handed_flanged_mace",
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 25
-        }
-      ],
-      "recipe#REMOVE": [
-        {
-          "key": "iron_ingot",
-          "value": 45
-        }
-      ],
-      "recipe#APPEND": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 25
+      }],
+      "recipe#REMOVE": [{
+        "key": "iron_ingot",
+        "value": 45
+      }],
+      "recipe#APPEND": [{
           "key": 2048,
           "value": 30
         },
@@ -517,47 +446,38 @@
           "value": 20
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingMetalWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 800,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 500
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 500
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_two_handed_flanged_mace",
               "amount": 1
             },
@@ -569,8 +489,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_two_handed_flanged_mace",
               "amount": 1
             },
@@ -582,8 +501,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_two_handed_flanged_mace",
               "amount": 1
             },
@@ -595,8 +513,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_two_handed_flanged_mace",
               "amount": 1
             },
@@ -610,20 +527,15 @@
     },
     {
       "id": "military_pick",
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 15
-        }
-      ],
-      "recipe#REMOVE": [
-        {
-          "key": "iron_ingot",
-          "value": 30
-        }
-      ],
-      "recipe#APPEND": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 15
+      }],
+      "recipe#REMOVE": [{
+        "key": "iron_ingot",
+        "value": 30
+      }],
+      "recipe#APPEND": [{
           "key": 2048,
           "value": 15
         },
@@ -636,47 +548,38 @@
           "value": 5
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingMetalWeaponMed",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 550,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 400
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 400
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_military_pick",
               "amount": 1
             },
@@ -688,8 +591,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_military_pick",
               "amount": 1
             },
@@ -701,8 +603,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_military_pick",
               "amount": 1
             },
@@ -714,8 +615,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_military_pick",
               "amount": 1
             },
@@ -729,14 +629,11 @@
     },
     {
       "id": "hatchet",
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 5
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 5
+      }],
+      "recipe": [{
           "key": 2048,
           "value": 15
         },
@@ -752,8 +649,7 @@
     },
     {
       "id": "greataxe",
-      "recipe": [
-        {
+      "recipe": [{
           "key": 2048,
           "value": 40
         },
@@ -766,11 +662,9 @@
           "value": 20
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_greataxe",
               "amount": 1
             },
@@ -782,8 +676,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_greataxe",
               "amount": 1
             },
@@ -795,8 +688,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_greataxe",
               "amount": 1
             },
@@ -808,8 +700,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_greataxe",
               "amount": 1
             },
@@ -824,14 +715,11 @@
     {
       "id": "warhammer",
       "jobType": 256,
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 15
-        }
-      ],
-      "recipe#REMOVE": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 15
+      }],
+      "recipe#REMOVE": [{
           "key": "wood",
           "value": 20
         },
@@ -840,8 +728,7 @@
           "value": 5
         }
       ],
-      "recipe#APPEND": [
-        {
+      "recipe#APPEND": [{
           "key": 2048,
           "value": 20
         },
@@ -854,11 +741,9 @@
           "value": 10
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_warhammer",
               "amount": 1
             },
@@ -870,8 +755,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_warhammer",
               "amount": 1
             },
@@ -883,8 +767,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_warhammer",
               "amount": 1
             },
@@ -896,8 +779,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_warhammer",
               "amount": 1
             },
@@ -911,20 +793,15 @@
     },
     {
       "id": "two_handed_warhammer",
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 25
-        }
-      ],
-      "recipe#REMOVE": [
-        {
-          "key": "iron_ingot",
-          "value": 30
-        }
-      ],
-      "recipe#APPEND": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 25
+      }],
+      "recipe#REMOVE": [{
+        "key": "iron_ingot",
+        "value": 30
+      }],
+      "recipe#APPEND": [{
           "key": 2048,
           "value": 30
         },
@@ -937,11 +814,9 @@
           "value": 20
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_two_handed_warhammer",
               "amount": 1
             },
@@ -953,8 +828,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_two_handed_warhammer",
               "amount": 1
             },
@@ -966,8 +840,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_two_handed_warhammer",
               "amount": 1
             },
@@ -979,8 +852,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_two_handed_warhammer",
               "amount": 1
             },
@@ -994,14 +866,11 @@
     },
     {
       "id": "berdiche",
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 20
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 20
+      }],
+      "recipe": [{
           "key": 2048,
           "value": 40
         },
@@ -1014,47 +883,38 @@
           "value": 20
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingMetalWeaponShort",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 800,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 500
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 500
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_berdiche",
               "amount": 1
             },
@@ -1066,8 +926,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_berdiche",
               "amount": 1
             },
@@ -1079,8 +938,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_berdiche",
               "amount": 1
             },
@@ -1092,8 +950,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_berdiche",
               "amount": 1
             },
@@ -1107,8 +964,7 @@
     },
     {
       "id": "billhook",
-      "recipe#REMOVE": [
-        {
+      "recipe#REMOVE": [{
           "key": "iron_ingot",
           "value": 10
         },
@@ -1117,8 +973,7 @@
           "value": 20
         }
       ],
-      "recipe#APPEND": [
-        {
+      "recipe#APPEND": [{
           "key": 2048,
           "value": 30
         },
@@ -1131,47 +986,38 @@
           "value": 20
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingMetalWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 550,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_billhook",
               "amount": 1
             },
@@ -1183,8 +1029,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_billhook",
               "amount": 1
             },
@@ -1196,8 +1041,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_billhook",
               "amount": 1
             },
@@ -1209,8 +1053,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_billhook",
               "amount": 1
             },
@@ -1224,48 +1067,37 @@
     },
     {
       "id": "staff",
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 5
-        }
-      ],
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 30
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 5
+      }],
+      "recipe": [{
+        "key": "wood",
+        "value": 30
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 400,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1275,42 +1107,33 @@
     },
     {
       "id": "cudgel",
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 20
-        }
-      ],
-      "productionSteps": [
-        {
+      "recipe": [{
+        "key": "wood",
+        "value": 20
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponShort",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 150,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 150
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 150
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1320,14 +1143,11 @@
     },
     {
       "id": "bludgeon",
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 5
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 5
+      }],
+      "recipe": [{
           "key": "wood",
           "value": 25
         },
@@ -1336,36 +1156,29 @@
           "value": 2
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponShort",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 400,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1375,36 +1188,29 @@
     },
     {
       "id": "spear",
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 150,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 150
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 150
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1414,42 +1220,33 @@
     },
     {
       "id": "reinforced_spear",
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 10
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 10
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 400,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1459,14 +1256,11 @@
     },
     {
       "id": "warfork",
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 5
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 5
+      }],
+      "recipe": [{
           "key": "wood",
           "value": 30
         },
@@ -1475,36 +1269,29 @@
           "value": 2
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 400,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1514,48 +1301,37 @@
     },
     {
       "id": "flail",
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 5
-        }
-      ],
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 25
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 5
+      }],
+      "recipe": [{
+        "key": "wood",
+        "value": 25
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponShort",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 300,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 200
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 200
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1565,48 +1341,37 @@
     },
     {
       "id": "reinforced_flail",
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 10
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_reinforced_flail",
-          "amount": 1
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 10
+      }],
+      "produced": [{
+        "blueprintID": "wood_reinforced_flail",
+        "amount": 1
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 400,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1616,14 +1381,11 @@
     },
     {
       "id": "two_handed_flail",
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 10
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 10
+      }],
+      "recipe": [{
           "key": "wood",
           "value": 40
         },
@@ -1632,36 +1394,29 @@
           "value": 5
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponMed",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 550,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 400
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 400
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1674,62 +1429,47 @@
       "iconPath": "short_bow",
       "iconColorValue": "#B3803A",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_short_bow",
-          "info": "equipment_info_short_bow"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_short_bow",
+        "info": "equipment_info_short_bow"
+      }],
       "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 0
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_short_bow",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 20
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "wood_short_bow",
+        "amount": 1
+      }],
+      "recipe": [{
+        "key": "wood",
+        "value": 20
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponShort",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 150,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 150
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 150
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1742,62 +1482,47 @@
       "iconPath": "war_bow",
       "iconColorValue": "#B3803A",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_war_bow",
-          "info": "equipment_info_war_bow"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_war_bow",
+        "info": "equipment_info_war_bow"
+      }],
       "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 10
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_war_bow",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 30
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 10
+      }],
+      "produced": [{
+        "blueprintID": "wood_war_bow",
+        "amount": 1
+      }],
+      "recipe": [{
+        "key": "wood",
+        "value": 30
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponMed",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 250,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 200
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 200
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1810,62 +1535,47 @@
       "iconPath": "long_bow",
       "iconColorValue": "#B3803A",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_long_bow",
-          "info": "equipment_info_long_bow"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_long_bow",
+        "info": "equipment_info_long_bow"
+      }],
       "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 15
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_long_bow",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 40
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "wood_long_bow",
+        "amount": 1
+      }],
+      "recipe": [{
+        "key": "wood",
+        "value": 40
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 400,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1878,62 +1588,47 @@
       "iconPath": "curved_bow",
       "iconColorValue": "#B3803A",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_curved_bow",
-          "info": "equipment_info_curved_bow"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_curved_bow",
+        "info": "equipment_info_curved_bow"
+      }],
       "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 15
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_curved_bow",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 35
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "wood_curved_bow",
+        "amount": 1
+      }],
+      "recipe": [{
+        "key": "wood",
+        "value": 35
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingWoodenWeaponLong",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 400,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -1946,28 +1641,21 @@
       "iconPath": "light_crossbow",
       "iconColorValue": "#B3803A",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_light_crossbow",
-          "info": "equipment_info_light_crossbow"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_light_crossbow",
+        "info": "equipment_info_light_crossbow"
+      }],
       "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 15
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_light_crossbow",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "wood_light_crossbow",
+        "amount": 1
+      }],
+      "recipe": [{
           "key": "wood",
           "value": 35
         },
@@ -1976,36 +1664,29 @@
           "value": 1
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingCrossobow",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 400,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -2018,28 +1699,21 @@
       "iconPath": "crossbow",
       "iconColorValue": "#B3803A",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_crossbow",
-          "info": "equipment_info_crossbow"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_crossbow",
+        "info": "equipment_info_crossbow"
+      }],
       "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 20
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_crossbow",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 20
+      }],
+      "produced": [{
+        "blueprintID": "wood_crossbow",
+        "amount": 1
+      }],
+      "recipe": [{
           "key": "wood",
           "value": 45
         },
@@ -2048,36 +1722,29 @@
           "value": 2
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingCrossobow",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 550,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 400
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 400
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -2090,28 +1757,21 @@
       "iconPath": "heavy_crossbow",
       "iconColorValue": "#B3803A",
       "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_heavy_crossbow",
-          "info": "equipment_info_heavy_crossbow"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_heavy_crossbow",
+        "info": "equipment_info_heavy_crossbow"
+      }],
       "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 30
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_heavy_crossbow",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 30
+      }],
+      "produced": [{
+        "blueprintID": "wood_heavy_crossbow",
+        "amount": 1
+      }],
+      "recipe": [{
           "key": "wood",
           "value": 45
         },
@@ -2120,467 +1780,29 @@
           "value": 4
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingCrossobow",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_weapon"
+          }],
           "productionTime": 600,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 500
-            }
-          ]
-        },
-        {
-          "devName": "spawnProduct",
-          "type": "spawnProduct"
-        }
-      ]
-    },
-    {
-      "id": "throwing_axes",
-      "iconPath": "throwing_axes",
-      "iconColorValue": "#bebebe",
-      "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_throwing_axes",
-          "info": "equipment_info_throwing_axes"
-        }
-      ],
-      "jobType": 256,
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 10
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "iron_throwing_axes",
-          "amount": 1
-        },
-        {
-          "blueprintID": "ash",
-          "amount": 25
-        }
-      ],
-      "recipe": [
-        {
-          "key": "iron_ingot",
-          "value": 5
-        },
-        {
-          "key": "wood",
-          "value": 20
-        }
-      ],
-      "productionSteps": [
-        {
-          "devName": "collectResources",
-          "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
-          "interruptible": true
-        },
-        {
-          "devName": "makingMetalWeaponMed",
-          "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
-          "productionTime": 550,
-          "modifyingAttribute": "SmithingSpeed",
-          "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 400
-            }
-          ]
-        },
-        {
-          "devName": "spawnProduct",
-          "type": "spawnProduct"
-        }
-      ]
-    },
-    {
-      "id": "light_javelins",
-      "iconPath": "light_javelins",
-      "iconColorValue": "#B3803A",
-      "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_light_javelins",
-          "info": "equipment_info_light_javelins"
-        }
-      ],
-      "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 0
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "light_javelins",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 20
-        }
-      ],
-      "productionSteps": [
-        {
-          "devName": "collectResources",
-          "type": "collect",
-          "interruptible": true
-        },
-        {
-          "devName": "makingWoodenWeaponMed",
-          "type": "workerProduce",
-          "productionTime": 200,
-          "modifyingAttribute": "WoodWorkingSpeed",
-          "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 400
-            }
-          ]
-        },
-        {
-          "devName": "spawnProduct",
-          "type": "spawnProduct"
-        }
-      ]
-    },
-    {
-      "id": "sling",
-      "iconPath": "sling",
-      "iconColorValue": "#B3803A",
-      "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_sling",
-          "info": "equipment_info_sling"
-        }
-      ],
-      "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Tailoring",
-          "value": 0
-        }
-      ],
-      "recipe": [
-        {
-          "key": 256,
-          "value": 5
-        }
-      ],
-      "productionSteps": [
-        {
-          "devName": "collectResources",
-          "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
-          "interruptible": true
-        },
-        {
-          "devName": "sewingRoughHat",
-          "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_hat"
-            }
-          ],
-          "productionTime": 100,
-          "modifyingAttribute": "MakeClothesSpeed",
-          "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Tailoring",
-              "value": 200
-            }
-          ]
-        },
-        {
-          "devName": "spawnProduct",
-          "type": "spawnProduct"
-        }
-      ],
-      "customProducts": [
-        {
-          "input": "linen_cloth",
-          "output": [
-            {
-              "blueprintID": "linen_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather",
-          "output": [
-            {
-              "blueprintID": "leather_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "wool_cloth",
-          "output": [
-            {
-              "blueprintID": "wool_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_hare",
-          "output": [
-            {
-              "blueprintID": "leather_hare_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_wolf",
-          "output": [
-            {
-              "blueprintID": "leather_wolf_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_boar",
-          "output": [
-            {
-              "blueprintID": "leather_boar_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_fox",
-          "output": [
-            {
-              "blueprintID": "leather_fox_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_rat",
-          "output": [
-            {
-              "blueprintID": "leather_rat_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_polecat",
-          "output": [
-            {
-              "blueprintID": "leather_polecat_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_cow",
-          "output": [
-            {
-              "blueprintID": "leather_cow_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_goat",
-          "output": [
-            {
-              "blueprintID": "leather_goat_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_sheep",
-          "output": [
-            {
-              "blueprintID": "leather_sheep_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_donkey",
-          "output": [
-            {
-              "blueprintID": "leather_donkey_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_cat",
-          "output": [
-            {
-              "blueprintID": "leather_cat_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_dog",
-          "output": [
-            {
-              "blueprintID": "leather_dog_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_human",
-          "onStartEffector": "MadeSomethigOutOfHumanLeather",
-          "output": [
-            {
-              "blueprintID": "leather_human_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_bear",
-          "output": [
-            {
-              "blueprintID": "leather_bear_sling",
-              "amount": 1
-            }
-          ]
-        },
-        {
-          "input": "leather_water_vole",
-          "output": [
-            {
-              "blueprintID": "leather_water_vole_sling",
-              "amount": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sling_staff",
-      "iconPath": "sling_staff",
-      "iconColorValue": "#B3803A",
-      "iconBackgroundPath": "ranged_weapon_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_sling_staff",
-          "info": "equipment_info_sling_staff"
-        }
-      ],
-      "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 0
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_sling_staff",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
-          "key": 256,
-          "value": 5
-        },
-        {
-          "key": "wood",
-          "value": 10
-        }
-      ],
-      "productionSteps": [
-        {
-          "devName": "collectResources",
-          "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
-          "interruptible": true
-        },
-        {
-          "devName": "makingWoodenWeaponShort",
-          "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_weapon"
-            }
-          ],
-          "productionTime": 90,
-          "modifyingAttribute": "WoodWorkingSpeed",
-          "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 500
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -2593,130 +1815,47 @@
       "iconPath": "pavise_shield",
       "iconColorValue": "#B3803A",
       "iconBackgroundPath": "shield_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "Wicker Pavise Shield",
-          "info": "equipment_info_pavise_shield"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "Wicker Pavise Shield",
+        "info": "equipment_info_pavise_shield"
+      }],
       "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 0
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wicker_pavise_shield",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
-          "key": "sticks",
-          "value": 30
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "wicker_pavise_shield",
+        "amount": 1
+      }],
+      "recipe": [{
+        "key": "sticks",
+        "value": 30
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingShield",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_shield"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_shield"
+          }],
           "productionTime": 500,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 250
-            }
-          ]
-        },
-        {
-          "devName": "spawnProduct",
-          "type": "spawnProduct"
-        }
-      ]
-    },
-    {
-      "id": "buckler_shield",
-      "iconPath": "buckler_shield",
-      "iconColorValue": "#B3803A",
-      "iconBackgroundPath": "shield_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "Wooden Buckler Shield",
-          "info": "equipment_info_buckler_shield"
-        }
-      ],
-      "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 0
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_buckler_shield",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 30
-        }
-      ],
-      "productionSteps": [
-        {
-          "devName": "collectResources",
-          "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
-          "interruptible": true
-        },
-        {
-          "devName": "makingBuckler",
-          "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_shield"
-            }
-          ],
-          "productionTime": 400,
-          "modifyingAttribute": "WoodWorkingSpeed",
-          "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 250
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 250
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -2729,22 +1868,17 @@
       "iconPath": "buckler_shield",
       "iconColorValue": "#9E9890",
       "iconBackgroundPath": "shield_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "Metal Buckler Shield",
-          "info": "A Buckler Shield, but sturdier."
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "Metal Buckler Shield",
+        "info": "A Buckler Shield, but sturdier."
+      }],
       "jobType": 256,
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 5
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 5
+      }],
+      "recipe": [{
           "key": 2048,
           "value": 30
         },
@@ -2753,47 +1887,38 @@
           "value": 15
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingBuckler",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_shield"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_shield"
+          }],
           "productionTime": 500,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 250
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 250
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_buckler_shield",
               "amount": 1
             },
@@ -2805,8 +1930,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_buckler_shield",
               "amount": 1
             },
@@ -2818,8 +1942,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_buckler_shield",
               "amount": 1
             },
@@ -2831,8 +1954,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_buckler_shield",
               "amount": 1
             },
@@ -2845,94 +1967,21 @@
       ]
     },
     {
-      "id": "heater_shield",
-      "iconPath": "heater_shield",
-      "iconColorValue": "#B3803A",
-      "iconBackgroundPath": "shield_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "Wooden Heater Shield",
-          "info": "equipment_info_heater_shield"
-        }
-      ],
-      "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 5
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_heater_shield",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 40
-        }
-      ],
-      "productionSteps": [
-        {
-          "devName": "collectResources",
-          "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
-          "interruptible": true
-        },
-        {
-          "devName": "makingShield",
-          "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_shield"
-            }
-          ],
-          "productionTime": 550,
-          "modifyingAttribute": "WoodWorkingSpeed",
-          "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 250
-            }
-          ]
-        },
-        {
-          "devName": "spawnProduct",
-          "type": "spawnProduct"
-        }
-      ]
-    },
-    {
       "id": "metal_heater_shield",
       "iconPath": "heater_shield",
       "iconColorValue": "#9E9890",
       "iconBackgroundPath": "shield_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "Metal Heater Shield",
-          "info": "A Heater Shield, but sturdier."
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "Metal Heater Shield",
+        "info": "A Heater Shield, but sturdier."
+      }],
       "jobType": 256,
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 10
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 10
+      }],
+      "recipe": [{
           "key": 2048,
           "value": 40
         },
@@ -2941,47 +1990,38 @@
           "value": 20
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingShield",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_shield"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_shield"
+          }],
           "productionTime": 650,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_heater_shield",
               "amount": 1
             },
@@ -2993,8 +2033,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_heater_shield",
               "amount": 1
             },
@@ -3006,8 +2045,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_heater_shield",
               "amount": 1
             },
@@ -3019,8 +2057,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_heater_shield",
               "amount": 1
             },
@@ -3037,62 +2074,47 @@
       "iconPath": "kite_shield",
       "iconColorValue": "#B3803A",
       "iconBackgroundPath": "shield_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "Wooden Kite Shield",
-          "info": "equipment_info_kite_shield"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "Wooden Kite Shield",
+        "info": "equipment_info_kite_shield"
+      }],
       "jobType": 512,
-      "requiredSkills": [
-        {
-          "key": "Carpentry",
-          "value": 10
-        }
-      ],
-      "produced": [
-        {
-          "blueprintID": "wood_kite_shield",
-          "amount": 1
-        }
-      ],
-      "recipe": [
-        {
-          "key": "wood",
-          "value": 45
-        }
-      ],
-      "productionSteps": [
-        {
+      "requiredSkills": [{
+        "key": "Carpentry",
+        "value": 10
+      }],
+      "produced": [{
+        "blueprintID": "wood_kite_shield",
+        "amount": 1
+      }],
+      "recipe": [{
+        "key": "wood",
+        "value": 45
+      }],
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingShield",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_shield"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_shield"
+          }],
           "productionTime": 600,
           "modifyingAttribute": "WoodWorkingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Carpentry",
-              "value": 300
-            }
-          ]
+          "experienceReward": [{
+            "key": "Carpentry",
+            "value": 300
+          }]
         },
         {
           "devName": "spawnProduct",
@@ -3105,22 +2127,17 @@
       "iconPath": "kite_shield",
       "iconColorValue": "#9E9890",
       "iconBackgroundPath": "shield_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "Metal Kite Shield",
-          "info": "A Kite Shield, but sturdier."
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "Metal Kite Shield",
+        "info": "A Kite Shield, but sturdier."
+      }],
       "jobType": 256,
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 15
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 15
+      }],
+      "recipe": [{
           "key": 2048,
           "value": 45
         },
@@ -3129,47 +2146,38 @@
           "value": 20
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingShield",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_shield"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_shield"
+          }],
           "productionTime": 700,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 350
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 350
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_kite_shield",
               "amount": 1
             },
@@ -3181,8 +2189,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_kite_shield",
               "amount": 1
             },
@@ -3194,8 +2201,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_kite_shield",
               "amount": 1
             },
@@ -3207,8 +2213,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_kite_shield",
               "amount": 1
             },
@@ -3225,22 +2230,17 @@
       "iconPath": "tower_shield",
       "iconColorValue": "#9E9890",
       "iconBackgroundPath": "shield_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "Metal Tower Shield",
-          "info": "A Tower Shield, but sturdier."
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "Metal Tower Shield",
+        "info": "A Tower Shield, but sturdier."
+      }],
       "jobType": 256,
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 15
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 15
+      }],
+      "recipe": [{
           "key": 2048,
           "value": 50
         },
@@ -3249,47 +2249,38 @@
           "value": 25
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingTowerShield",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_shield"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_shield"
+          }],
           "productionTime": 800,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 550
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 550
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_tower_shield",
               "amount": 1
             },
@@ -3301,8 +2292,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_tower_shield",
               "amount": 1
             },
@@ -3314,8 +2304,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_tower_shield",
               "amount": 1
             },
@@ -3327,8 +2316,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_tower_shield",
               "amount": 1
             },
@@ -3345,22 +2333,17 @@
       "iconPath": "pigface_helmet",
       "iconColorValue": "#bebebe",
       "iconBackgroundPath": "armor_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_pigface_helmet",
-          "info": "equipment_info_pigface_helmet"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_pigface_helmet",
+        "info": "equipment_info_pigface_helmet"
+      }],
       "jobType": 256,
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 5
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 5
+      }],
+      "recipe": [{
           "key": 2048,
           "value": 30
         },
@@ -3369,47 +2352,38 @@
           "value": 10
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingPlateHelmet",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_helemt"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_helemt"
+          }],
           "productionTime": 400,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 200
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 200
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_pigface_helmet",
               "amount": 1
             },
@@ -3421,8 +2395,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_pigface_helmet",
               "amount": 1
             },
@@ -3434,8 +2407,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_pigface_helmet",
               "amount": 1
             },
@@ -3447,8 +2419,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_pigface_helmet",
               "amount": 1
             },
@@ -3465,22 +2436,17 @@
       "iconPath": "kettle_helmet",
       "iconColorValue": "#bebebe",
       "iconBackgroundPath": "armor_background",
-      "locKeys": [
-        {
-          "languageName": "English",
-          "name": "equipment_name_kettle_helmet",
-          "info": "equipment_info_kettle_helmet"
-        }
-      ],
+      "locKeys": [{
+        "languageName": "English",
+        "name": "equipment_name_kettle_helmet",
+        "info": "equipment_info_kettle_helmet"
+      }],
       "jobType": 256,
-      "requiredSkills": [
-        {
-          "key": "Smithing",
-          "value": 5
-        }
-      ],
-      "recipe": [
-        {
+      "requiredSkills": [{
+        "key": "Smithing",
+        "value": 5
+      }],
+      "recipe": [{
           "key": 2048,
           "value": 30
         },
@@ -3489,47 +2455,38 @@
           "value": 15
         }
       ],
-      "productionSteps": [
-        {
+      "productionSteps": [{
           "devName": "collectResources",
           "type": "collect",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_resources"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
           "interruptible": true
         },
         {
           "devName": "makingMailHelmet",
           "type": "workerProduce",
-          "locKeys": [
-            {
-              "languageName": "English",
-              "name": "name_prod_make_helemt"
-            }
-          ],
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_make_helemt"
+          }],
           "productionTime": 350,
           "modifyingAttribute": "SmithingSpeed",
           "interruptible": true,
-          "experienceReward": [
-            {
-              "key": "Smithing",
-              "value": 200
-            }
-          ]
+          "experienceReward": [{
+            "key": "Smithing",
+            "value": 200
+          }]
         },
         {
           "devName": "spawnProduct",
           "type": "spawnProduct"
         }
       ],
-      "customProducts": [
-        {
+      "customProducts": [{
           "input": "iron_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "iron_kettle_helmet",
               "amount": 1
             },
@@ -3541,8 +2498,7 @@
         },
         {
           "input": "steel_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "steel_kettle_helmet",
               "amount": 1
             },
@@ -3554,8 +2510,7 @@
         },
         {
           "input": "gold_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "gold_kettle_helmet",
               "amount": 1
             },
@@ -3567,8 +2522,7 @@
         },
         {
           "input": "silver_ingot",
-          "output": [
-            {
+          "output": [{
               "blueprintID": "silver_kettle_helmet",
               "amount": 1
             },
@@ -3577,6 +2531,2379 @@
               "amount": 65
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "meal",
+      "customProducts#APPEND": [{
+        "input": "wheat",
+        "output": [{
+            "blueprintID": "bread",
+            "amount": 3,
+            "modifyingAttribute": 101
+          },
+          {
+            "blueprintID": "ash",
+            "amount": 5
+          }
+        ]
+      }]
+    },
+    {
+      "id": "lavish_meal_old",
+      "customProducts#APPEND": [{
+        "input": "wheat",
+        "output": [{
+            "blueprintID": "lavish_meal",
+            "amount": 3,
+            "modifyingAttribute": 101
+          },
+          {
+            "blueprintID": "ash",
+            "amount": 5
+          }
+        ]
+      }]
+    },
+    {
+      "id": "stargazy_pie",
+      "recipe#APPEND": [{
+        "key": "wheat",
+        "value": 12
+      }]
+    },
+    {
+      "id": "stew",
+      "iconPath": "stew",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_stew",
+        "info": "resource_info_stew"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "stew",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": 1,
+          "value": 24
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMat",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 20,
+          "modifyingAttribute": 3,
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 120
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "milk_meal",
+      "iconPath": "milk_meal",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_milk_meal",
+        "info": "resource_info_milk_meal"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "milk_meal",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "milk",
+          "value": 12
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "cheese_meal",
+      "iconPath": "cheese_meal",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_cheese_meal",
+        "info": "resource_info_cheese_meal"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "cheese_meal",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "cheese",
+          "value": 24
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "stewed_fruit",
+      "iconPath": "stewed_fruit",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_stewed_fruit",
+        "info": "resource_info_stewed_fruit"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "stewed_fruit",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": 2,
+          "value": 24
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMat",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 20,
+          "modifyingAttribute": 3,
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 120
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "cooked_grain",
+      "iconPath": "milk_meal",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_cooked_grain",
+        "info": "resource_info_cooked_grain"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "cooked_grain",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "barley",
+          "value": 24
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMat",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 20,
+          "modifyingAttribute": 3,
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 120
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "roasted_mushrooms",
+      "iconPath": "roasted_mushrooms",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_roasted_mushrooms",
+        "info": "resource_info_roasted_mushrooms"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "roasted_mushrooms",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "mushroom",
+          "value": 24
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMat",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 20,
+          "modifyingAttribute": 3,
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 120
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "roasted_meat",
+      "iconPath": "roasted_meat",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_roasted_meat",
+        "info": "resource_info_roasted_meat"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "roasted_meat",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "forbiddenOnStart": [
+        "trout_fish",
+        "pike_fish",
+        "smoked_fish",
+        "meat_human",
+        "smoked_meat_human"
+      ],
+      "recipe": [{
+          "key": 16,
+          "value": 12
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMat",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 20,
+          "modifyingAttribute": 3,
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 120
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "egg_boiled",
+      "iconPath": "egg_chicken",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_egg_boiled",
+        "info": "resource_info_egg_boiled"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "egg_boiled",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "egg_chicken",
+          "value": 6
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMat",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 20,
+          "modifyingAttribute": 3,
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 120
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "roasted_fish",
+      "iconPath": "roasted_fish",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_roasted_fish",
+        "info": "resource_info_roasted_fish"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "roasted_fish",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "forbiddenOnStart": [
+        "meat",
+        "meat_human",
+        "smoked_meat",
+        "smoked_meat_human"
+      ],
+      "recipe": [{
+          "key": 16,
+          "value": 12
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMat",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 20,
+          "modifyingAttribute": 3,
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 120
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "fish_dish",
+      "iconPath": "fish_dish",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_fish_dish",
+        "info": "resource_info_fish_dish"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "fish_dish",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "forbiddenOnStart": [
+        "meat",
+        "meat_human",
+        "smoked_meat",
+        "smoked_meat_human"
+      ],
+      "recipe": [{
+          "key": 16,
+          "value": 12
+        },
+        {
+          "key": 1,
+          "value": 6
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "eel_meal",
+      "iconPath": "eel_meal",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_eel_meal",
+        "info": "resource_info_eel_meal"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "eel_meal",
+        "amount": 3,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "salted_eel",
+          "value": 12
+        },
+        {
+          "key": "vinegar",
+          "value": 6
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMat",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 20,
+          "modifyingAttribute": 3,
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 120
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "sauteed_fruits",
+      "iconPath": "sauteed_fruits",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_sauteed_fruits",
+        "info": "resource_info_sauteed_fruits"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "sauteed_fruits",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": 2,
+          "value": 20
+        },
+        {
+          "key": 16777216,
+          "value": 1
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "lavish_vegetable_stew",
+      "iconPath": "lavish_vegetable_stew",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_lavish_vegetable_stew",
+        "info": "resource_info_lavish_vegetable_stew"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "lavish_vegetable_stew",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "forbiddenOnStart": [
+        "meat",
+        "smoked_meat",
+        "trout_fish",
+        "pike_fish",
+        "smoked_fish",
+        "eel",
+        "salted_eel",
+        "honey",
+        "meat_human",
+        "smoked_meat_human"
+      ],
+      "recipe": [{
+          "key": 1,
+          "value": 20
+        },
+        {
+          "key": "milk",
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "lavish_roasted_meat",
+      "iconPath": "lavish_roasted_meat",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_lavish_roasted_meat",
+        "info": "resource_info_lavish_roasted_meat"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "lavish_roasted_meat",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "forbiddenOnStart": [
+        "trout_fish",
+        "pike_fish",
+        "meat_human",
+        "smoked_fish",
+        "smoked_meat_human",
+        "barley"
+      ],
+      "recipe": [{
+          "key": 16,
+          "value": 20
+        },
+        {
+          "key": 1,
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "lavish_roasted_fish",
+      "iconPath": "lavish_roasted_fish",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_lavish_roasted_fish",
+        "info": "resource_info_lavish_roasted_fish"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "lavish_roasted_fish",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "forbiddenOnStart": [
+        "meat",
+        "smoked_meat",
+        "meat_human",
+        "smoked_meat_human"
+      ],
+      "recipe": [{
+          "key": 16,
+          "value": 20
+        },
+        {
+          "key": 1,
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "sauteed_fruits_vegetables",
+      "iconPath": "sauteed_fruits_vegetables",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_sauteed_fruits_vegetables",
+        "info": "resource_info_sauteed_fruits_vegetables"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "sauteed_fruits_vegetables",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": 1,
+          "value": 20
+        },
+        {
+          "key": 2,
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "honey_glazed_fruit",
+      "iconPath": "honey_glazed_fruit",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_honey_glazed_fruit",
+        "info": "resource_info_honey_glazed_fruit"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "honey_glazed_fruit",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": 2,
+          "value": 20
+        },
+        {
+          "key": "honey",
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "honey_glazed_vegetables",
+      "iconPath": "honey_glazed_vegetables",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_honey_glazed_vegetables",
+        "info": "resource_info_honey_glazed_vegetables"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "honey_glazed_vegetables",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": 1,
+          "value": 20
+        },
+        {
+          "key": "honey",
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "fruit_puding",
+      "iconPath": "fruit_puding",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_fruit_puding",
+        "info": "resource_info_fruit_puding"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "fruit_puding",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": 2,
+          "value": 20
+        },
+        {
+          "key": "egg_chicken",
+          "value": 6
+        },
+        {
+          "key": "milk",
+          "value": 6
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "fruit_cheese",
+      "iconPath": "fruit_cheese",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_fruit_cheese",
+        "info": "resource_info_fruit_cheese"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "fruit_cheese",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": 2,
+          "value": 20
+        },
+        {
+          "key": "cheese",
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "fruit_pie",
+      "iconPath": "apple_pie",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_fruit_pie",
+        "info": "resource_info_fruit_pie"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "fruit_pie",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": 2,
+          "value": 20
+        },
+        {
+          "key": "barley",
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "meat_pie",
+      "iconPath": "cheese_meal",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_meat_pie",
+        "info": "resource_info_meat_pie"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "meat_pie",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "forbiddenOnStart": [
+        "trout_fish",
+        "pike_fish",
+        "eel",
+        "salted_eel",
+        "smoked_fish",
+        "meat_human",
+        "smoked_meat_human"
+      ],
+      "recipe": [{
+          "key": 16,
+          "value": 20
+        },
+        {
+          "key": "barley",
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "buiskets",
+      "iconPath": "cheese_meal",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_buiskets",
+        "info": "resource_info_buiskets"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "buiskets",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "barley",
+          "value": 20
+        },
+        {
+          "key": "egg_chicken",
+          "value": 6
+        },
+        {
+          "key": "milk",
+          "value": 6
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "egg_meal",
+      "iconPath": "egg_meal",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_egg_meal",
+        "info": "resource_info_egg_meal"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "egg_meal",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "egg_chicken",
+          "value": 32
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "bread",
+      "iconPath": "bread",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_bread",
+        "info": "resource_info_bread"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "bread",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "barley",
+          "value": 24
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "honey_biscuits",
+      "iconPath": "honey_biscuits",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_honey_biscuits",
+        "info": "resource_info_honey_biscuits"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "honey_biscuits",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "honey",
+          "value": 20
+        },
+        {
+          "key": "barley",
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "apple_pie",
+      "iconPath": "apple_pie",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_apple_pie",
+        "info": "resource_info_apple_pie"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "apple_pie",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "apple",
+          "value": 20
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "redcurrant_pie",
+      "iconPath": "redcurrant_pie",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_redcurrant_pie",
+        "info": "resource_info_redcurrant_pie"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "redcurrant_pie",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "redcurrant",
+          "value": 20
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "smoked_meat",
+      "forbiddenOnStart#APPEND": [
+        "trout_fish",
+        "pike_fish"
+      ]
+    },
+    {
+      "id": "smoked_fish",
+      "iconPath": "smoked_fish",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_smoked_fish",
+        "info": "resource_info_smoked_fish"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 10
+      }],
+      "forbiddenOnStart": [
+        "meat",
+        "meat_human"
+      ],
+      "recipe": [{
+          "key": 64,
+          "value": 10
+        },
+        {
+          "key": 131072,
+          "value": 3
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepareSmokeMeat",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 20,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 120
+          }]
+        },
+        {
+          "devName": "smokeMeat",
+          "type": "passiveProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_smoke_meat"
+          }],
+          "productionTime": 450,
+          "interruptible": true
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ],
+      "customProducts": [{
+          "input": "meat",
+          "output": [{
+              "blueprintID": "smoked_meat",
+              "amount": 10
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 15
+            }
+          ]
+        },
+        {
+          "input": "meat_human",
+          "output": [{
+              "blueprintID": "smoked_meat_human",
+              "amount": 10
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 15
+            }
+          ]
+        },
+        {
+          "input": "trout_fish",
+          "output": [{
+              "blueprintID": "smoked_fish",
+              "amount": 10
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 15
+            }
+          ]
+        },
+        {
+          "input": "pike_fish",
+          "output": [{
+              "blueprintID": "smoked_fish",
+              "amount": 10
+            },
+            {
+              "blueprintID": "ash",
+              "amount": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cooked_grain_rice",
+      "iconPath": "milk_meal",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_cooked_grain",
+        "info": "resource_info_cooked_grain"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 0
+      }],
+      "produced": [{
+        "blueprintID": "cooked_grain",
+        "amount": 8,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "rice",
+          "value": 12
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMat",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 20,
+          "modifyingAttribute": 3,
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 120
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "fruit_pie_wheat",
+      "iconPath": "apple_pie",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_fruit_pie",
+        "info": "resource_info_fruit_pie"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "fruit_pie",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": 2,
+          "value": 20
+        },
+        {
+          "key": "wheat",
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "meat_pie_wheat",
+      "iconPath": "cheese_meal",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_meat_pie",
+        "info": "resource_info_meat_pie"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "meat_pie",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "forbiddenOnStart": [
+        "trout_fish",
+        "pike_fish",
+        "eel",
+        "salted_eel",
+        "smoked_fish",
+        "meat_human",
+        "smoked_meat_human"
+      ],
+      "recipe": [{
+          "key": 16,
+          "value": 20
+        },
+        {
+          "key": "wheat",
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "buiskets_wheat",
+      "iconPath": "cheese_meal",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_buiskets",
+        "info": "resource_info_buiskets"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "buiskets",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "wheat",
+          "value": 20
+        },
+        {
+          "key": "egg_chicken",
+          "value": 6
+        },
+        {
+          "key": "milk",
+          "value": 6
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "bread_wheat",
+      "iconPath": "bread",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_bread",
+        "info": "resource_info_bread"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "bread",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "wheat",
+          "value": 24
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
+        }
+      ]
+    },
+    {
+      "id": "honey_biscuits_wheat",
+      "iconPath": "honey_biscuits",
+      "locKeys": [{
+        "languageName": "English",
+        "name": "resource_name_honey_biscuits",
+        "info": "resource_info_honey_biscuits"
+      }],
+      "hasFreshness": true,
+      "jobType": 1024,
+      "requiredSkills": [{
+        "key": "Culinary",
+        "value": 15
+      }],
+      "produced": [{
+        "blueprintID": "honey_biscuits",
+        "amount": 4,
+        "modifyingAttribute": 101
+      }],
+      "recipe": [{
+          "key": "honey",
+          "value": 20
+        },
+        {
+          "key": "wheat",
+          "value": 12
+        },
+        {
+          "key": "herbs",
+          "value": 1
+        },
+        {
+          "key": 131072,
+          "value": 1
+        }
+      ],
+      "productionSteps": [{
+          "devName": "collectResources",
+          "type": "collect",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_resources"
+          }],
+          "interruptible": true
+        },
+        {
+          "devName": "prepCookMatLavish",
+          "type": "workerProduce",
+          "locKeys": [{
+            "languageName": "English",
+            "name": "name_prod_prep_material"
+          }],
+          "productionTime": 35,
+          "modifyingAttribute": "CookingSpeed",
+          "interruptible": true,
+          "experienceReward": [{
+            "key": "Culinary",
+            "value": 180
+          }]
+        },
+        {
+          "devName": "spawnProduct",
+          "type": "spawnProduct"
         }
       ]
     }

@@ -18,7 +18,7 @@
         "dismantle_wood"
       ]
     },
-	{
+    {
       "id": "blacksmith_station",
       "productions#REMOVE": [
         "short_sword",
@@ -78,7 +78,7 @@
         "dismantle_wood"
       ]
     },
-	{
+    {
       "id": "armourer_table",
       "productions#REMOVE": [
         "buckler_shield",
@@ -101,6 +101,68 @@
         "metal_tower_shield",
         "dismantle_metal",
         "dismantle_cloth"
+      ]
+    },
+    {
+      "id": "camp_fire",
+      "productions#APPEND": [
+        "stew",
+        "milk_meal",
+        "cheese_meal",
+        "stewed_fruit",
+        "cooked_grain",
+        "cooked_grain_rice",
+        "roasted_mushrooms",
+        "roasted_meat",
+        "roasted_fish",
+        "egg_boiled",
+        "fish_dish",
+        "eel_meal"
+      ]
+    },
+    {
+      "id": "stove",
+      "productions#APPEND": [
+        "stew",
+        "milk_meal",
+        "cheese_meal",
+        "stewed_fruit",
+        "cooked_grain",
+        "cooked_grain_rice",
+        "roasted_mushrooms",
+        "roasted_meat",
+        "roasted_fish",
+        "egg_boiled",
+        "fish_dish",
+        "eel_meal",
+        "bread",
+        "bread_wheat",
+        "egg_meal",
+        "honey_biscuits",
+        "honey_biscuits_wheat",
+        "apple_pie",
+        "redcurrant_pie",
+        "fruit_pie",
+        "fruit_pie_wheat",
+        "meat_pie",
+        "meat_pie_wheat",
+        "buiskets",
+        "buiskets_wheat",
+        "lavish_vegetable_stew",
+        "lavish_roasted_meat",
+        "lavish_roasted_fish",
+        "sauteed_fruits",
+        "sauteed_fruits_vegetables",
+        "honey_glazed_fruit",
+        "honey_glazed_vegetables",
+        "fruit_puding",
+        "fruit_cheese"
+      ]
+    },
+    {
+      "id": "smokehouse",
+      "productions#APPEND": [
+        "smoked_fish"
       ]
     }
   ]

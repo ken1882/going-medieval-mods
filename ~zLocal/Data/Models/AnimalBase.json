@@ -20,7 +20,7 @@
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_large_domestic"
+        "pet": "animal_large_pet"
       },
       "fireHaulEndEffectorChance": 0.4,
       "haulEndEffectorDuration": {
@@ -49,7 +49,7 @@
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_small_domestic"
+        "pet": "animal_small_pet"
       },
       "fireHaulEndEffectorChance": 0.4,
       "haulEndEffectorDuration": {
@@ -63,16 +63,16 @@
         {
           "phaseName": "wolf_young",
           "storageBase": {
-            "capacity": 250
+            "capacity": 300
           },
-          "caravanStorageCapacity": 300
+          "caravanStorageCapacity": 350
         },
         {
           "phaseName": "wolf_mature",
           "storageBase": {
-            "capacity": 350
+            "capacity": 500
           },
-          "caravanStorageCapacity": 400
+          "caravanStorageCapacity": 550
         }
       ],
       "walkableModelBlueprints": {
@@ -104,7 +104,7 @@
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_large_domestic"
+        "pet": "animal_large_pet"
       },
       "fireHaulEndEffectorChance": 0.4,
       "haulEndEffectorDuration": {
@@ -133,7 +133,7 @@
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_small_domestic"
+        "pet": "animal_small_pet"
       },
       "fireHaulEndEffectorChance": 0.4,
       "haulEndEffectorDuration": {
@@ -162,7 +162,7 @@
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_small_domestic"
+        "pet": "animal_small_pet"
       },
       "fireHaulEndEffectorChance": 0.4,
       "haulEndEffectorDuration": {
@@ -186,9 +186,9 @@
         {
           "phaseName": "fox_mature",
           "storageBase": {
-            "capacity": 150
+            "capacity": 200
           },
-          "caravanStorageCapacity": 170
+          "caravanStorageCapacity": 250
         }
       ],
       "walkableModelBlueprints": {
@@ -287,20 +287,20 @@
         {
           "phaseName": "cow_young",
           "storageBase": {
-            "capacity": 600
+            "capacity": 900
           },
-          "caravanStorageCapacity": 700
+          "caravanStorageCapacity": 1000
         },
         {
           "phaseName": "cow_mature",
           "storageBase": {
-            "capacity": 1200
+            "capacity": 1800
           },
-          "caravanStorageCapacity": 1300
+          "caravanStorageCapacity": 2000
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_large_domestic"
+        "pet": "animal_large_pet"
       },
       "fireHaulEndEffectorChance": 0.2,
       "haulEndEffectorDuration": {
@@ -328,7 +328,7 @@
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_large_domestic"
+        "pet": "animal_large_pet"
       },
       "fireHaulEndEffectorChance": 0.4,
       "haulEndEffectorDuration": {
@@ -357,7 +357,7 @@
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_large_domestic"
+        "pet": "animal_large_pet"
       },
       "fireHaulEndEffectorChance": 0.4,
       "haulEndEffectorDuration": {
@@ -379,13 +379,13 @@
         {
           "phaseName": "donkey_mature",
           "storageBase": {
-            "capacity": 1600
+            "capacity": 2400
           },
-          "caravanStorageCapacity": 1800
+          "caravanStorageCapacity": 2700
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_large_domestic"
+        "pet": "animal_large_pet"
       },
       "fireHaulEndEffectorChance": 0.2,
       "haulEndEffectorDuration": {
@@ -414,7 +414,7 @@
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_small_domestic"
+        "pet": "animal_small_pet"
       },
       "fireHaulEndEffectorChance": 0.4,
       "haulEndEffectorDuration": {
@@ -493,7 +493,7 @@
         }
       ],
       "walkableModelBlueprints": {
-        "pet": "animal_large_domestic"
+        "pet": "animal_large_pet"
       },
       "fireHaulEndEffectorChance": 0.4,
       "haulEndEffectorDuration": {

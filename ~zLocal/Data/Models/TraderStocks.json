@@ -1,0 +1,40 @@
+{
+  "repository": [
+    {
+      "id": "VisitorStock",
+      "stockItems#APPEND": [
+        {
+          "dev_name": "SeedsWheatSmall",
+          "type": "resource",
+          "value": "wheat",
+          "amountRange": {
+            "min": 5,
+            "max": 10
+          },
+          "entriesCount": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "SeedStock",
+      "stockItems#APPEND": [
+        {
+          "dev_name": "SeedsWheat",
+          "type": "resource",
+          "value": "wheat",
+          "amountRange": {
+            "min": 15,
+            "max": 40
+          },
+          "entriesCount": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ]
+}

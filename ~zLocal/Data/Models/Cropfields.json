@@ -1,0 +1,70 @@
+{
+  "repository": [
+    {
+      "id": "mushroom_cropfield",
+      "iconPath": "mushroom_cropfield",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "Mushroom nursery",
+          "info": "Mushrooms are great! Sometimes things are dangerous, but that's good! Come on! You too can be a bushcrafter from today!"
+        },
+        {
+          "languageName": "Japanese",
+          "name": "きのこの苗床",
+          "info": "きのこは良いものです！たまには危険はあるけれど、それがまたいいんです！さぁ、今日からあなたもブッシュクラフターだ！"
+        }
+      ],
+      "defaultPlant": "mushroom_patch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": "Zone",
+      "buildingSubCategoryUI": "SubCtgCropfields",
+      "seedID": "mushroom"
+    },
+    {
+      "id": "hay_cropfield",
+      "iconPath": "hay_cropfield",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "pasture",
+          "info": "Fields and grasslands where grass is cultivated as feed for livestock such as cows."
+        },
+        {
+          "languageName": "Japanese",
+          "name": "牧草地",
+          "info": "牛などの家畜に与える飼料となる牧草を栽培する畑や草地。もう飼料に悩まされることはない。"
+        }
+      ],
+      "defaultPlant": "hay_patch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": "Zone",
+      "buildingSubCategoryUI": "SubCtgCropfields",
+      "seedID": "hay"
+    },
+    {
+      "id": "wheat_cropfield",
+      "iconPath": "barley_cropfield",
+      "locKeys": [
+        {
+          "languageName": "English",
+          "name": "Wheat cropfield",
+          "info": "It is a biennial grass of the grass family that is eaten as a staple food in most countries and is the most produced food crop in the world."
+        },
+        {
+          "languageName": "Japanese",
+          "name": "小麦畑",
+          "info": "イネ科の越年草で、主食とする国が最も多く、食用作物として世界で最も生産されています。"
+        }
+      ],
+      "defaultPlant": "wheat_patch",
+      "layerHideOffset": -1.5,
+      "layerShadowOffset": -1.5,
+      "buildingCategoryUI": "Zone",
+      "buildingSubCategoryUI": "SubCtgCropfields",
+      "seedID": "wheat"
+    }
+  ]
+}
