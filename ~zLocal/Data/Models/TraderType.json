@@ -1,0 +1,75 @@
+{
+  "repository": [
+    {
+      "id": "trader_visitor",
+      "stockModifiers#REMOVE": [
+        "dont_trade_general",
+        "dont_trade_raw"
+      ]
+    },
+    {
+      "id": "general_goods_trader_small",
+      "stockModifiers#REMOVE": [
+        "dont_trade_general"
+      ]
+    },
+    {
+      "id": "general_goods_trader_normal",
+      "stockModifiers#REMOVE": [
+        "dont_trade_general"
+      ]
+    },
+    {
+      "id": "general_goods_trader_large",
+      "stockModifiers#REMOVE": [
+        "dont_trade_general"
+      ]
+    },
+    {
+      "id": "weapons_trader",
+      "stockModifiers#REMOVE": [
+        "dont_trade_general",
+        "dont_trade_general",
+        "dont_trade_raw"
+      ]
+    },
+    {
+      "id": "rare_goods_trader",
+      "stockModifiers#REMOVE": [
+        "dont_trade_general",
+        "dont_trade_raw"
+      ]
+    },
+    {
+      "id": "settlemnt",
+      "stockModifiers#REMOVE": [
+        "dont_trade_general"
+      ]
+    },
+    {
+      "id": "trader_prisoners",
+      "standsOnTheMapEdge": false,
+      "idleDoNotWalk": false,
+      "stockModifiers#REMOVE": [
+        "dont_trade_prisoner_merchant"
+      ],
+      "stocks": [
+        {
+          "stockName": "CoinSlaver",
+          "chance": 1,
+          "priceModifier": 1
+        },
+        {
+          "stockName": "Prisoners",
+          "chance": 1,
+          "priceModifier": 1.2
+        },
+        {
+          "stockName": "AdditionalPrisoners",
+          "chance": 0.5,
+          "priceModifier": 1.2
+        }
+      ]
+    }
+  ]
+}

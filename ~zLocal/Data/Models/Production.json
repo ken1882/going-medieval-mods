@@ -4526,11 +4526,11 @@
       }],
       "produced": [{
         "blueprintID": "cooked_grain",
-        "amount": 8,
+        "amount": 12,
         "modifyingAttribute": 101
       }],
       "recipe": [{
-          "key": "rice",
+          "key": "rice_washed",
           "value": 12
         },
         {

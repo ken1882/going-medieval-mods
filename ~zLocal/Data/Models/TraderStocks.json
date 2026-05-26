@@ -35,6 +35,41 @@
           }
         }
       ]
+    },
+    {
+      "id": "CoinSlaver",
+      "stockItems": [
+        {
+          "dev_name": "GoldCoinVHigh",
+          "type": "resource",
+          "value": "gold_coin",
+          "amountRange": {
+            "min": 200,
+            "max": 777
+          },
+          "entriesCount": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "AdditionalPrisoners",
+      "stockItems": [
+        {
+          "dev_name": "PrisonersRandom",
+          "type": "prisoner",
+          "amountRange": {
+            "min": 1,
+            "max": 5
+          },
+          "entriesCount": {
+            "min": 5,
+            "max": 5
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,74 @@
+{
+  "repository": [
+    {
+      "id": "game_event_runaway_new",
+      "durationHours": {
+        "min": "20",
+        "max": "28"
+      }
+    },
+    {
+      "id": "game_event_beggar",
+      "beggarStashMarkerSpawnChance": 1,
+      "stashMarkerMapIds": [
+        "LootStashCombatValley01"
+      ],
+      "lootConfigByWealth": {
+        "entries": [
+          {
+            "key": 0,
+            "value": "LootStashSmall"
+          },
+          {
+            "key": 3000,
+            "value": "LootStashMedium"
+          },
+          {
+            "key": 6000,
+            "value": "LootStashLarge"
+          },
+          {
+            "key": 12000,
+            "value": "LootStashVLarge"
+          },
+          {
+            "key": 30000,
+            "value": "LootStashHuge"
+          }
+        ]
+      },
+      "interpolatedValues": [
+        {
+          "name": "valueDemandedBasedOnWealth",
+          "threshold": 100,
+          "list": [
+            {
+              "key": 100,
+              "value": 2
+            },
+            {
+              "key": 800,
+              "value": 4
+            },
+            {
+              "key": 2000,
+              "value": 6
+            },
+            {
+              "key": 8000,
+              "value": 8
+            },
+            {
+              "key": 10000,
+              "value": 10
+            },
+            {
+              "key": 20000,
+              "value": 15
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

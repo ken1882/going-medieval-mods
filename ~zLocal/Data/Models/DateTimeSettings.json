@@ -3,23 +3,23 @@
     {
       "name": "spring",
       "index": 0,
-      "caravanTravelDurationMultiplier": 0.2
+      "caravanTravelDurationMultiplier": 0.1
     },
     {
       "name": "summer",
       "index": 1,
-      "caravanTravelDurationMultiplier": 0.2
+      "caravanTravelDurationMultiplier": 0.1
     },
     {
       "name": "autumn",
       "index": 2,
       "grassFlammability": 1.2,
-      "caravanTravelDurationMultiplier": 0.25
+      "caravanTravelDurationMultiplier": 0.15
     },
     {
       "name": "winter",
       "index": 3,
-      "caravanTravelDurationMultiplier": 0.4
+      "caravanTravelDurationMultiplier": 0.2
     }
   ]
 }

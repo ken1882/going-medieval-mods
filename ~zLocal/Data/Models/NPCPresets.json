@@ -1,0 +1,37 @@
+{
+  "repository": [
+    {
+      "id": "general_prisoner",
+      "skillGroups#APPEND": [
+        {
+          "groupName": "Mining_Bonus",
+          "isNoneChance": 0.97,
+          "skills": [
+            {
+              "skillId": "Mining",
+              "level": 6
+            },
+            {
+              "skillId": "Mining",
+              "level": 10
+            }
+          ]
+        },
+        {
+          "groupName": "Construction_Bonus",
+          "isNoneChance": 0.97,
+          "skills": [
+            {
+              "skillId": "Construction",
+              "level": 6
+            },
+            {
+              "skillId": "Construction",
+              "level": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
